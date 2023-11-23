@@ -1,0 +1,6228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link rel="shortcut icon" href="https://healingthroughmovement.com/wp-content/uploads/2020/05/htm-favicon.png" />
+    <title>Healing Through Movement</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    
+    <!-- <script type="text/javascript" src="https://a.remarketstats.com/px/smart/?c=25561dcb4d96b0f"></script> -->
+    <style>
+        /*!
+ * Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul > li {
+    position: relative; }
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; }
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; }
+
+.fa-pull-left {
+  float: left; }
+
+.fa-pull-right {
+  float: right; }
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none; }
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%; }
+
+.fa-stack-1x {
+  line-height: inherit; }
+
+.fa-stack-2x {
+  font-size: 2em; }
+
+.fa-inverse {
+  color: #fff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+.fa-500px:before {
+  content: "\f26e"; }
+
+.fa-accessible-icon:before {
+  content: "\f368"; }
+
+.fa-accusoft:before {
+  content: "\f369"; }
+
+.fa-acquisitions-incorporated:before {
+  content: "\f6af"; }
+
+.fa-ad:before {
+  content: "\f641"; }
+
+.fa-address-book:before {
+  content: "\f2b9"; }
+
+.fa-address-card:before {
+  content: "\f2bb"; }
+
+.fa-adjust:before {
+  content: "\f042"; }
+
+.fa-adn:before {
+  content: "\f170"; }
+
+.fa-adobe:before {
+  content: "\f778"; }
+
+.fa-adversal:before {
+  content: "\f36a"; }
+
+.fa-affiliatetheme:before {
+  content: "\f36b"; }
+
+.fa-air-freshener:before {
+  content: "\f5d0"; }
+
+.fa-airbnb:before {
+  content: "\f834"; }
+
+.fa-algolia:before {
+  content: "\f36c"; }
+
+.fa-align-center:before {
+  content: "\f037"; }
+
+.fa-align-justify:before {
+  content: "\f039"; }
+
+.fa-align-left:before {
+  content: "\f036"; }
+
+.fa-align-right:before {
+  content: "\f038"; }
+
+.fa-alipay:before {
+  content: "\f642"; }
+
+.fa-allergies:before {
+  content: "\f461"; }
+
+.fa-amazon:before {
+  content: "\f270"; }
+
+.fa-amazon-pay:before {
+  content: "\f42c"; }
+
+.fa-ambulance:before {
+  content: "\f0f9"; }
+
+.fa-american-sign-language-interpreting:before {
+  content: "\f2a3"; }
+
+.fa-amilia:before {
+  content: "\f36d"; }
+
+.fa-anchor:before {
+  content: "\f13d"; }
+
+.fa-android:before {
+  content: "\f17b"; }
+
+.fa-angellist:before {
+  content: "\f209"; }
+
+.fa-angle-double-down:before {
+  content: "\f103"; }
+
+.fa-angle-double-left:before {
+  content: "\f100"; }
+
+.fa-angle-double-right:before {
+  content: "\f101"; }
+
+.fa-angle-double-up:before {
+  content: "\f102"; }
+
+.fa-angle-down:before {
+  content: "\f107"; }
+
+.fa-angle-left:before {
+  content: "\f104"; }
+
+.fa-angle-right:before {
+  content: "\f105"; }
+
+.fa-angle-up:before {
+  content: "\f106"; }
+
+.fa-angry:before {
+  content: "\f556"; }
+
+.fa-angrycreative:before {
+  content: "\f36e"; }
+
+.fa-angular:before {
+  content: "\f420"; }
+
+.fa-ankh:before {
+  content: "\f644"; }
+
+.fa-app-store:before {
+  content: "\f36f"; }
+
+.fa-app-store-ios:before {
+  content: "\f370"; }
+
+.fa-apper:before {
+  content: "\f371"; }
+
+.fa-apple:before {
+  content: "\f179"; }
+
+.fa-apple-alt:before {
+  content: "\f5d1"; }
+
+.fa-apple-pay:before {
+  content: "\f415"; }
+
+.fa-archive:before {
+  content: "\f187"; }
+
+.fa-archway:before {
+  content: "\f557"; }
+
+.fa-arrow-alt-circle-down:before {
+  content: "\f358"; }
+
+.fa-arrow-alt-circle-left:before {
+  content: "\f359"; }
+
+.fa-arrow-alt-circle-right:before {
+  content: "\f35a"; }
+
+.fa-arrow-alt-circle-up:before {
+  content: "\f35b"; }
+
+.fa-arrow-circle-down:before {
+  content: "\f0ab"; }
+
+.fa-arrow-circle-left:before {
+  content: "\f0a8"; }
+
+.fa-arrow-circle-right:before {
+  content: "\f0a9"; }
+
+.fa-arrow-circle-up:before {
+  content: "\f0aa"; }
+
+.fa-arrow-down:before {
+  content: "\f063"; }
+
+.fa-arrow-left:before {
+  content: "\f060"; }
+
+.fa-arrow-right:before {
+  content: "\f061"; }
+
+.fa-arrow-up:before {
+  content: "\f062"; }
+
+.fa-arrows-alt:before {
+  content: "\f0b2"; }
+
+.fa-arrows-alt-h:before {
+  content: "\f337"; }
+
+.fa-arrows-alt-v:before {
+  content: "\f338"; }
+
+.fa-artstation:before {
+  content: "\f77a"; }
+
+.fa-assistive-listening-systems:before {
+  content: "\f2a2"; }
+
+.fa-asterisk:before {
+  content: "\f069"; }
+
+.fa-asymmetrik:before {
+  content: "\f372"; }
+
+.fa-at:before {
+  content: "\f1fa"; }
+
+.fa-atlas:before {
+  content: "\f558"; }
+
+.fa-atlassian:before {
+  content: "\f77b"; }
+
+.fa-atom:before {
+  content: "\f5d2"; }
+
+.fa-audible:before {
+  content: "\f373"; }
+
+.fa-audio-description:before {
+  content: "\f29e"; }
+
+.fa-autoprefixer:before {
+  content: "\f41c"; }
+
+.fa-avianex:before {
+  content: "\f374"; }
+
+.fa-aviato:before {
+  content: "\f421"; }
+
+.fa-award:before {
+  content: "\f559"; }
+
+.fa-aws:before {
+  content: "\f375"; }
+
+.fa-baby:before {
+  content: "\f77c"; }
+
+.fa-baby-carriage:before {
+  content: "\f77d"; }
+
+.fa-backspace:before {
+  content: "\f55a"; }
+
+.fa-backward:before {
+  content: "\f04a"; }
+
+.fa-bacon:before {
+  content: "\f7e5"; }
+
+.fa-balance-scale:before {
+  content: "\f24e"; }
+
+.fa-balance-scale-left:before {
+  content: "\f515"; }
+
+.fa-balance-scale-right:before {
+  content: "\f516"; }
+
+.fa-ban:before {
+  content: "\f05e"; }
+
+.fa-band-aid:before {
+  content: "\f462"; }
+
+.fa-bandcamp:before {
+  content: "\f2d5"; }
+
+.fa-barcode:before {
+  content: "\f02a"; }
+
+.fa-bars:before {
+  content: "\f0c9"; }
+
+.fa-baseball-ball:before {
+  content: "\f433"; }
+
+.fa-basketball-ball:before {
+  content: "\f434"; }
+
+.fa-bath:before {
+  content: "\f2cd"; }
+
+.fa-battery-empty:before {
+  content: "\f244"; }
+
+.fa-battery-full:before {
+  content: "\f240"; }
+
+.fa-battery-half:before {
+  content: "\f242"; }
+
+.fa-battery-quarter:before {
+  content: "\f243"; }
+
+.fa-battery-three-quarters:before {
+  content: "\f241"; }
+
+.fa-battle-net:before {
+  content: "\f835"; }
+
+.fa-bed:before {
+  content: "\f236"; }
+
+.fa-beer:before {
+  content: "\f0fc"; }
+
+.fa-behance:before {
+  content: "\f1b4"; }
+
+.fa-behance-square:before {
+  content: "\f1b5"; }
+
+.fa-bell:before {
+  content: "\f0f3"; }
+
+.fa-bell-slash:before {
+  content: "\f1f6"; }
+
+.fa-bezier-curve:before {
+  content: "\f55b"; }
+
+.fa-bible:before {
+  content: "\f647"; }
+
+.fa-bicycle:before {
+  content: "\f206"; }
+
+.fa-biking:before {
+  content: "\f84a"; }
+
+.fa-bimobject:before {
+  content: "\f378"; }
+
+.fa-binoculars:before {
+  content: "\f1e5"; }
+
+.fa-biohazard:before {
+  content: "\f780"; }
+
+.fa-birthday-cake:before {
+  content: "\f1fd"; }
+
+.fa-bitbucket:before {
+  content: "\f171"; }
+
+.fa-bitcoin:before {
+  content: "\f379"; }
+
+.fa-bity:before {
+  content: "\f37a"; }
+
+.fa-black-tie:before {
+  content: "\f27e"; }
+
+.fa-blackberry:before {
+  content: "\f37b"; }
+
+.fa-blender:before {
+  content: "\f517"; }
+
+.fa-blender-phone:before {
+  content: "\f6b6"; }
+
+.fa-blind:before {
+  content: "\f29d"; }
+
+.fa-blog:before {
+  content: "\f781"; }
+
+.fa-blogger:before {
+  content: "\f37c"; }
+
+.fa-blogger-b:before {
+  content: "\f37d"; }
+
+.fa-bluetooth:before {
+  content: "\f293"; }
+
+.fa-bluetooth-b:before {
+  content: "\f294"; }
+
+.fa-bold:before {
+  content: "\f032"; }
+
+.fa-bolt:before {
+  content: "\f0e7"; }
+
+.fa-bomb:before {
+  content: "\f1e2"; }
+
+.fa-bone:before {
+  content: "\f5d7"; }
+
+.fa-bong:before {
+  content: "\f55c"; }
+
+.fa-book:before {
+  content: "\f02d"; }
+
+.fa-book-dead:before {
+  content: "\f6b7"; }
+
+.fa-book-medical:before {
+  content: "\f7e6"; }
+
+.fa-book-open:before {
+  content: "\f518"; }
+
+.fa-book-reader:before {
+  content: "\f5da"; }
+
+.fa-bookmark:before {
+  content: "\f02e"; }
+
+.fa-bootstrap:before {
+  content: "\f836"; }
+
+.fa-border-all:before {
+  content: "\f84c"; }
+
+.fa-border-none:before {
+  content: "\f850"; }
+
+.fa-border-style:before {
+  content: "\f853"; }
+
+.fa-bowling-ball:before {
+  content: "\f436"; }
+
+.fa-box:before {
+  content: "\f466"; }
+
+.fa-box-open:before {
+  content: "\f49e"; }
+
+.fa-boxes:before {
+  content: "\f468"; }
+
+.fa-braille:before {
+  content: "\f2a1"; }
+
+.fa-brain:before {
+  content: "\f5dc"; }
+
+.fa-bread-slice:before {
+  content: "\f7ec"; }
+
+.fa-briefcase:before {
+  content: "\f0b1"; }
+
+.fa-briefcase-medical:before {
+  content: "\f469"; }
+
+.fa-broadcast-tower:before {
+  content: "\f519"; }
+
+.fa-broom:before {
+  content: "\f51a"; }
+
+.fa-brush:before {
+  content: "\f55d"; }
+
+.fa-btc:before {
+  content: "\f15a"; }
+
+.fa-buffer:before {
+  content: "\f837"; }
+
+.fa-bug:before {
+  content: "\f188"; }
+
+.fa-building:before {
+  content: "\f1ad"; }
+
+.fa-bullhorn:before {
+  content: "\f0a1"; }
+
+.fa-bullseye:before {
+  content: "\f140"; }
+
+.fa-burn:before {
+  content: "\f46a"; }
+
+.fa-buromobelexperte:before {
+  content: "\f37f"; }
+
+.fa-bus:before {
+  content: "\f207"; }
+
+.fa-bus-alt:before {
+  content: "\f55e"; }
+
+.fa-business-time:before {
+  content: "\f64a"; }
+
+.fa-buysellads:before {
+  content: "\f20d"; }
+
+.fa-calculator:before {
+  content: "\f1ec"; }
+
+.fa-calendar:before {
+  content: "\f133"; }
+
+.fa-calendar-alt:before {
+  content: "\f073"; }
+
+.fa-calendar-check:before {
+  content: "\f274"; }
+
+.fa-calendar-day:before {
+  content: "\f783"; }
+
+.fa-calendar-minus:before {
+  content: "\f272"; }
+
+.fa-calendar-plus:before {
+  content: "\f271"; }
+
+.fa-calendar-times:before {
+  content: "\f273"; }
+
+.fa-calendar-week:before {
+  content: "\f784"; }
+
+.fa-camera:before {
+  content: "\f030"; }
+
+.fa-camera-retro:before {
+  content: "\f083"; }
+
+.fa-campground:before {
+  content: "\f6bb"; }
+
+.fa-canadian-maple-leaf:before {
+  content: "\f785"; }
+
+.fa-candy-cane:before {
+  content: "\f786"; }
+
+.fa-cannabis:before {
+  content: "\f55f"; }
+
+.fa-capsules:before {
+  content: "\f46b"; }
+
+.fa-car:before {
+  content: "\f1b9"; }
+
+.fa-car-alt:before {
+  content: "\f5de"; }
+
+.fa-car-battery:before {
+  content: "\f5df"; }
+
+.fa-car-crash:before {
+  content: "\f5e1"; }
+
+.fa-car-side:before {
+  content: "\f5e4"; }
+
+.fa-caret-down:before {
+  content: "\f0d7"; }
+
+.fa-caret-left:before {
+  content: "\f0d9"; }
+
+.fa-caret-right:before {
+  content: "\f0da"; }
+
+.fa-caret-square-down:before {
+  content: "\f150"; }
+
+.fa-caret-square-left:before {
+  content: "\f191"; }
+
+.fa-caret-square-right:before {
+  content: "\f152"; }
+
+.fa-caret-square-up:before {
+  content: "\f151"; }
+
+.fa-caret-up:before {
+  content: "\f0d8"; }
+
+.fa-carrot:before {
+  content: "\f787"; }
+
+.fa-cart-arrow-down:before {
+  content: "\f218"; }
+
+.fa-cart-plus:before {
+  content: "\f217"; }
+
+.fa-cash-register:before {
+  content: "\f788"; }
+
+.fa-cat:before {
+  content: "\f6be"; }
+
+.fa-cc-amazon-pay:before {
+  content: "\f42d"; }
+
+.fa-cc-amex:before {
+  content: "\f1f3"; }
+
+.fa-cc-apple-pay:before {
+  content: "\f416"; }
+
+.fa-cc-diners-club:before {
+  content: "\f24c"; }
+
+.fa-cc-discover:before {
+  content: "\f1f2"; }
+
+.fa-cc-jcb:before {
+  content: "\f24b"; }
+
+.fa-cc-mastercard:before {
+  content: "\f1f1"; }
+
+.fa-cc-paypal:before {
+  content: "\f1f4"; }
+
+.fa-cc-stripe:before {
+  content: "\f1f5"; }
+
+.fa-cc-visa:before {
+  content: "\f1f0"; }
+
+.fa-centercode:before {
+  content: "\f380"; }
+
+.fa-centos:before {
+  content: "\f789"; }
+
+.fa-certificate:before {
+  content: "\f0a3"; }
+
+.fa-chair:before {
+  content: "\f6c0"; }
+
+.fa-chalkboard:before {
+  content: "\f51b"; }
+
+.fa-chalkboard-teacher:before {
+  content: "\f51c"; }
+
+.fa-charging-station:before {
+  content: "\f5e7"; }
+
+.fa-chart-area:before {
+  content: "\f1fe"; }
+
+.fa-chart-bar:before {
+  content: "\f080"; }
+
+.fa-chart-line:before {
+  content: "\f201"; }
+
+.fa-chart-pie:before {
+  content: "\f200"; }
+
+.fa-check:before {
+  content: "\f00c"; }
+
+.fa-check-circle:before {
+  content: "\f058"; }
+
+.fa-check-double:before {
+  content: "\f560"; }
+
+.fa-check-square:before {
+  content: "\f14a"; }
+
+.fa-cheese:before {
+  content: "\f7ef"; }
+
+.fa-chess:before {
+  content: "\f439"; }
+
+.fa-chess-bishop:before {
+  content: "\f43a"; }
+
+.fa-chess-board:before {
+  content: "\f43c"; }
+
+.fa-chess-king:before {
+  content: "\f43f"; }
+
+.fa-chess-knight:before {
+  content: "\f441"; }
+
+.fa-chess-pawn:before {
+  content: "\f443"; }
+
+.fa-chess-queen:before {
+  content: "\f445"; }
+
+.fa-chess-rook:before {
+  content: "\f447"; }
+
+.fa-chevron-circle-down:before {
+  content: "\f13a"; }
+
+.fa-chevron-circle-left:before {
+  content: "\f137"; }
+
+.fa-chevron-circle-right:before {
+  content: "\f138"; }
+
+.fa-chevron-circle-up:before {
+  content: "\f139"; }
+
+.fa-chevron-down:before {
+  content: "\f078"; }
+
+.fa-chevron-left:before {
+  content: "\f053"; }
+
+.fa-chevron-right:before {
+  content: "\f054"; }
+
+.fa-chevron-up:before {
+  content: "\f077"; }
+
+.fa-child:before {
+  content: "\f1ae"; }
+
+.fa-chrome:before {
+  content: "\f268"; }
+
+.fa-chromecast:before {
+  content: "\f838"; }
+
+.fa-church:before {
+  content: "\f51d"; }
+
+.fa-circle:before {
+  content: "\f111"; }
+
+.fa-circle-notch:before {
+  content: "\f1ce"; }
+
+.fa-city:before {
+  content: "\f64f"; }
+
+.fa-clinic-medical:before {
+  content: "\f7f2"; }
+
+.fa-clipboard:before {
+  content: "\f328"; }
+
+.fa-clipboard-check:before {
+  content: "\f46c"; }
+
+.fa-clipboard-list:before {
+  content: "\f46d"; }
+
+.fa-clock:before {
+  content: "\f017"; }
+
+.fa-clone:before {
+  content: "\f24d"; }
+
+.fa-closed-captioning:before {
+  content: "\f20a"; }
+
+.fa-cloud:before {
+  content: "\f0c2"; }
+
+.fa-cloud-download-alt:before {
+  content: "\f381"; }
+
+.fa-cloud-meatball:before {
+  content: "\f73b"; }
+
+.fa-cloud-moon:before {
+  content: "\f6c3"; }
+
+.fa-cloud-moon-rain:before {
+  content: "\f73c"; }
+
+.fa-cloud-rain:before {
+  content: "\f73d"; }
+
+.fa-cloud-showers-heavy:before {
+  content: "\f740"; }
+
+.fa-cloud-sun:before {
+  content: "\f6c4"; }
+
+.fa-cloud-sun-rain:before {
+  content: "\f743"; }
+
+.fa-cloud-upload-alt:before {
+  content: "\f382"; }
+
+.fa-cloudscale:before {
+  content: "\f383"; }
+
+.fa-cloudsmith:before {
+  content: "\f384"; }
+
+.fa-cloudversify:before {
+  content: "\f385"; }
+
+.fa-cocktail:before {
+  content: "\f561"; }
+
+.fa-code:before {
+  content: "\f121"; }
+
+.fa-code-branch:before {
+  content: "\f126"; }
+
+.fa-codepen:before {
+  content: "\f1cb"; }
+
+.fa-codiepie:before {
+  content: "\f284"; }
+
+.fa-coffee:before {
+  content: "\f0f4"; }
+
+.fa-cog:before {
+  content: "\f013"; }
+
+.fa-cogs:before {
+  content: "\f085"; }
+
+.fa-coins:before {
+  content: "\f51e"; }
+
+.fa-columns:before {
+  content: "\f0db"; }
+
+.fa-comment:before {
+  content: "\f075"; }
+
+.fa-comment-alt:before {
+  content: "\f27a"; }
+
+.fa-comment-dollar:before {
+  content: "\f651"; }
+
+.fa-comment-dots:before {
+  content: "\f4ad"; }
+
+.fa-comment-medical:before {
+  content: "\f7f5"; }
+
+.fa-comment-slash:before {
+  content: "\f4b3"; }
+
+.fa-comments:before {
+  content: "\f086"; }
+
+.fa-comments-dollar:before {
+  content: "\f653"; }
+
+.fa-compact-disc:before {
+  content: "\f51f"; }
+
+.fa-compass:before {
+  content: "\f14e"; }
+
+.fa-compress:before {
+  content: "\f066"; }
+
+.fa-compress-arrows-alt:before {
+  content: "\f78c"; }
+
+.fa-concierge-bell:before {
+  content: "\f562"; }
+
+.fa-confluence:before {
+  content: "\f78d"; }
+
+.fa-connectdevelop:before {
+  content: "\f20e"; }
+
+.fa-contao:before {
+  content: "\f26d"; }
+
+.fa-cookie:before {
+  content: "\f563"; }
+
+.fa-cookie-bite:before {
+  content: "\f564"; }
+
+.fa-copy:before {
+  content: "\f0c5"; }
+
+.fa-copyright:before {
+  content: "\f1f9"; }
+
+.fa-cotton-bureau:before {
+  content: "\f89e"; }
+
+.fa-couch:before {
+  content: "\f4b8"; }
+
+.fa-cpanel:before {
+  content: "\f388"; }
+
+.fa-creative-commons:before {
+  content: "\f25e"; }
+
+.fa-creative-commons-by:before {
+  content: "\f4e7"; }
+
+.fa-creative-commons-nc:before {
+  content: "\f4e8"; }
+
+.fa-creative-commons-nc-eu:before {
+  content: "\f4e9"; }
+
+.fa-creative-commons-nc-jp:before {
+  content: "\f4ea"; }
+
+.fa-creative-commons-nd:before {
+  content: "\f4eb"; }
+
+.fa-creative-commons-pd:before {
+  content: "\f4ec"; }
+
+.fa-creative-commons-pd-alt:before {
+  content: "\f4ed"; }
+
+.fa-creative-commons-remix:before {
+  content: "\f4ee"; }
+
+.fa-creative-commons-sa:before {
+  content: "\f4ef"; }
+
+.fa-creative-commons-sampling:before {
+  content: "\f4f0"; }
+
+.fa-creative-commons-sampling-plus:before {
+  content: "\f4f1"; }
+
+.fa-creative-commons-share:before {
+  content: "\f4f2"; }
+
+.fa-creative-commons-zero:before {
+  content: "\f4f3"; }
+
+.fa-credit-card:before {
+  content: "\f09d"; }
+
+.fa-critical-role:before {
+  content: "\f6c9"; }
+
+.fa-crop:before {
+  content: "\f125"; }
+
+.fa-crop-alt:before {
+  content: "\f565"; }
+
+.fa-cross:before {
+  content: "\f654"; }
+
+.fa-crosshairs:before {
+  content: "\f05b"; }
+
+.fa-crow:before {
+  content: "\f520"; }
+
+.fa-crown:before {
+  content: "\f521"; }
+
+.fa-crutch:before {
+  content: "\f7f7"; }
+
+.fa-css3:before {
+  content: "\f13c"; }
+
+.fa-css3-alt:before {
+  content: "\f38b"; }
+
+.fa-cube:before {
+  content: "\f1b2"; }
+
+.fa-cubes:before {
+  content: "\f1b3"; }
+
+.fa-cut:before {
+  content: "\f0c4"; }
+
+.fa-cuttlefish:before {
+  content: "\f38c"; }
+
+.fa-d-and-d:before {
+  content: "\f38d"; }
+
+.fa-d-and-d-beyond:before {
+  content: "\f6ca"; }
+
+.fa-dashcube:before {
+  content: "\f210"; }
+
+.fa-database:before {
+  content: "\f1c0"; }
+
+.fa-deaf:before {
+  content: "\f2a4"; }
+
+.fa-delicious:before {
+  content: "\f1a5"; }
+
+.fa-democrat:before {
+  content: "\f747"; }
+
+.fa-deploydog:before {
+  content: "\f38e"; }
+
+.fa-deskpro:before {
+  content: "\f38f"; }
+
+.fa-desktop:before {
+  content: "\f108"; }
+
+.fa-dev:before {
+  content: "\f6cc"; }
+
+.fa-deviantart:before {
+  content: "\f1bd"; }
+
+.fa-dharmachakra:before {
+  content: "\f655"; }
+
+.fa-dhl:before {
+  content: "\f790"; }
+
+.fa-diagnoses:before {
+  content: "\f470"; }
+
+.fa-diaspora:before {
+  content: "\f791"; }
+
+.fa-dice:before {
+  content: "\f522"; }
+
+.fa-dice-d20:before {
+  content: "\f6cf"; }
+
+.fa-dice-d6:before {
+  content: "\f6d1"; }
+
+.fa-dice-five:before {
+  content: "\f523"; }
+
+.fa-dice-four:before {
+  content: "\f524"; }
+
+.fa-dice-one:before {
+  content: "\f525"; }
+
+.fa-dice-six:before {
+  content: "\f526"; }
+
+.fa-dice-three:before {
+  content: "\f527"; }
+
+.fa-dice-two:before {
+  content: "\f528"; }
+
+.fa-digg:before {
+  content: "\f1a6"; }
+
+.fa-digital-ocean:before {
+  content: "\f391"; }
+
+.fa-digital-tachograph:before {
+  content: "\f566"; }
+
+.fa-directions:before {
+  content: "\f5eb"; }
+
+.fa-discord:before {
+  content: "\f392"; }
+
+.fa-discourse:before {
+  content: "\f393"; }
+
+.fa-divide:before {
+  content: "\f529"; }
+
+.fa-dizzy:before {
+  content: "\f567"; }
+
+.fa-dna:before {
+  content: "\f471"; }
+
+.fa-dochub:before {
+  content: "\f394"; }
+
+.fa-docker:before {
+  content: "\f395"; }
+
+.fa-dog:before {
+  content: "\f6d3"; }
+
+.fa-dollar-sign:before {
+  content: "\f155"; }
+
+.fa-dolly:before {
+  content: "\f472"; }
+
+.fa-dolly-flatbed:before {
+  content: "\f474"; }
+
+.fa-donate:before {
+  content: "\f4b9"; }
+
+.fa-door-closed:before {
+  content: "\f52a"; }
+
+.fa-door-open:before {
+  content: "\f52b"; }
+
+.fa-dot-circle:before {
+  content: "\f192"; }
+
+.fa-dove:before {
+  content: "\f4ba"; }
+
+.fa-download:before {
+  content: "\f019"; }
+
+.fa-draft2digital:before {
+  content: "\f396"; }
+
+.fa-drafting-compass:before {
+  content: "\f568"; }
+
+.fa-dragon:before {
+  content: "\f6d5"; }
+
+.fa-draw-polygon:before {
+  content: "\f5ee"; }
+
+.fa-dribbble:before {
+  content: "\f17d"; }
+
+.fa-dribbble-square:before {
+  content: "\f397"; }
+
+.fa-dropbox:before {
+  content: "\f16b"; }
+
+.fa-drum:before {
+  content: "\f569"; }
+
+.fa-drum-steelpan:before {
+  content: "\f56a"; }
+
+.fa-drumstick-bite:before {
+  content: "\f6d7"; }
+
+.fa-drupal:before {
+  content: "\f1a9"; }
+
+.fa-dumbbell:before {
+  content: "\f44b"; }
+
+.fa-dumpster:before {
+  content: "\f793"; }
+
+.fa-dumpster-fire:before {
+  content: "\f794"; }
+
+.fa-dungeon:before {
+  content: "\f6d9"; }
+
+.fa-dyalog:before {
+  content: "\f399"; }
+
+.fa-earlybirds:before {
+  content: "\f39a"; }
+
+.fa-ebay:before {
+  content: "\f4f4"; }
+
+.fa-edge:before {
+  content: "\f282"; }
+
+.fa-edit:before {
+  content: "\f044"; }
+
+.fa-egg:before {
+  content: "\f7fb"; }
+
+.fa-eject:before {
+  content: "\f052"; }
+
+.fa-elementor:before {
+  content: "\f430"; }
+
+.fa-ellipsis-h:before {
+  content: "\f141"; }
+
+.fa-ellipsis-v:before {
+  content: "\f142"; }
+
+.fa-ello:before {
+  content: "\f5f1"; }
+
+.fa-ember:before {
+  content: "\f423"; }
+
+.fa-empire:before {
+  content: "\f1d1"; }
+
+.fa-envelope:before {
+  content: "\f0e0"; }
+
+.fa-envelope-open:before {
+  content: "\f2b6"; }
+
+.fa-envelope-open-text:before {
+  content: "\f658"; }
+
+.fa-envelope-square:before {
+  content: "\f199"; }
+
+.fa-envira:before {
+  content: "\f299"; }
+
+.fa-equals:before {
+  content: "\f52c"; }
+
+.fa-eraser:before {
+  content: "\f12d"; }
+
+.fa-erlang:before {
+  content: "\f39d"; }
+
+.fa-ethereum:before {
+  content: "\f42e"; }
+
+.fa-ethernet:before {
+  content: "\f796"; }
+
+.fa-etsy:before {
+  content: "\f2d7"; }
+
+.fa-euro-sign:before {
+  content: "\f153"; }
+
+.fa-evernote:before {
+  content: "\f839"; }
+
+.fa-exchange-alt:before {
+  content: "\f362"; }
+
+.fa-exclamation:before {
+  content: "\f12a"; }
+
+.fa-exclamation-circle:before {
+  content: "\f06a"; }
+
+.fa-exclamation-triangle:before {
+  content: "\f071"; }
+
+.fa-expand:before {
+  content: "\f065"; }
+
+.fa-expand-arrows-alt:before {
+  content: "\f31e"; }
+
+.fa-expeditedssl:before {
+  content: "\f23e"; }
+
+.fa-external-link-alt:before {
+  content: "\f35d"; }
+
+.fa-external-link-square-alt:before {
+  content: "\f360"; }
+
+.fa-eye:before {
+  content: "\f06e"; }
+
+.fa-eye-dropper:before {
+  content: "\f1fb"; }
+
+.fa-eye-slash:before {
+  content: "\f070"; }
+
+.fa-facebook:before {
+  content: "\f09a"; }
+
+.fa-facebook-f:before {
+  content: "\f39e"; }
+
+.fa-facebook-messenger:before {
+  content: "\f39f"; }
+
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+.fa-fan:before {
+  content: "\f863"; }
+
+.fa-fantasy-flight-games:before {
+  content: "\f6dc"; }
+
+.fa-fast-backward:before {
+  content: "\f049"; }
+
+.fa-fast-forward:before {
+  content: "\f050"; }
+
+.fa-fax:before {
+  content: "\f1ac"; }
+
+.fa-feather:before {
+  content: "\f52d"; }
+
+.fa-feather-alt:before {
+  content: "\f56b"; }
+
+.fa-fedex:before {
+  content: "\f797"; }
+
+.fa-fedora:before {
+  content: "\f798"; }
+
+.fa-female:before {
+  content: "\f182"; }
+
+.fa-fighter-jet:before {
+  content: "\f0fb"; }
+
+.fa-figma:before {
+  content: "\f799"; }
+
+.fa-file:before {
+  content: "\f15b"; }
+
+.fa-file-alt:before {
+  content: "\f15c"; }
+
+.fa-file-archive:before {
+  content: "\f1c6"; }
+
+.fa-file-audio:before {
+  content: "\f1c7"; }
+
+.fa-file-code:before {
+  content: "\f1c9"; }
+
+.fa-file-contract:before {
+  content: "\f56c"; }
+
+.fa-file-csv:before {
+  content: "\f6dd"; }
+
+.fa-file-download:before {
+  content: "\f56d"; }
+
+.fa-file-excel:before {
+  content: "\f1c3"; }
+
+.fa-file-export:before {
+  content: "\f56e"; }
+
+.fa-file-image:before {
+  content: "\f1c5"; }
+
+.fa-file-import:before {
+  content: "\f56f"; }
+
+.fa-file-invoice:before {
+  content: "\f570"; }
+
+.fa-file-invoice-dollar:before {
+  content: "\f571"; }
+
+.fa-file-medical:before {
+  content: "\f477"; }
+
+.fa-file-medical-alt:before {
+  content: "\f478"; }
+
+.fa-file-pdf:before {
+  content: "\f1c1"; }
+
+.fa-file-powerpoint:before {
+  content: "\f1c4"; }
+
+.fa-file-prescription:before {
+  content: "\f572"; }
+
+.fa-file-signature:before {
+  content: "\f573"; }
+
+.fa-file-upload:before {
+  content: "\f574"; }
+
+.fa-file-video:before {
+  content: "\f1c8"; }
+
+.fa-file-word:before {
+  content: "\f1c2"; }
+
+.fa-fill:before {
+  content: "\f575"; }
+
+.fa-fill-drip:before {
+  content: "\f576"; }
+
+.fa-film:before {
+  content: "\f008"; }
+
+.fa-filter:before {
+  content: "\f0b0"; }
+
+.fa-fingerprint:before {
+  content: "\f577"; }
+
+.fa-fire:before {
+  content: "\f06d"; }
+
+.fa-fire-alt:before {
+  content: "\f7e4"; }
+
+.fa-fire-extinguisher:before {
+  content: "\f134"; }
+
+.fa-firefox:before {
+  content: "\f269"; }
+
+.fa-first-aid:before {
+  content: "\f479"; }
+
+.fa-first-order:before {
+  content: "\f2b0"; }
+
+.fa-first-order-alt:before {
+  content: "\f50a"; }
+
+.fa-firstdraft:before {
+  content: "\f3a1"; }
+
+.fa-fish:before {
+  content: "\f578"; }
+
+.fa-fist-raised:before {
+  content: "\f6de"; }
+
+.fa-flag:before {
+  content: "\f024"; }
+
+.fa-flag-checkered:before {
+  content: "\f11e"; }
+
+.fa-flag-usa:before {
+  content: "\f74d"; }
+
+.fa-flask:before {
+  content: "\f0c3"; }
+
+.fa-flickr:before {
+  content: "\f16e"; }
+
+.fa-flipboard:before {
+  content: "\f44d"; }
+
+.fa-flushed:before {
+  content: "\f579"; }
+
+.fa-fly:before {
+  content: "\f417"; }
+
+.fa-folder:before {
+  content: "\f07b"; }
+
+.fa-folder-minus:before {
+  content: "\f65d"; }
+
+.fa-folder-open:before {
+  content: "\f07c"; }
+
+.fa-folder-plus:before {
+  content: "\f65e"; }
+
+.fa-font:before {
+  content: "\f031"; }
+
+.fa-font-awesome:before {
+  content: "\f2b4"; }
+
+.fa-font-awesome-alt:before {
+  content: "\f35c"; }
+
+.fa-font-awesome-flag:before {
+  content: "\f425"; }
+
+.fa-font-awesome-logo-full:before {
+  content: "\f4e6"; }
+
+.fa-fonticons:before {
+  content: "\f280"; }
+
+.fa-fonticons-fi:before {
+  content: "\f3a2"; }
+
+.fa-football-ball:before {
+  content: "\f44e"; }
+
+.fa-fort-awesome:before {
+  content: "\f286"; }
+
+.fa-fort-awesome-alt:before {
+  content: "\f3a3"; }
+
+.fa-forumbee:before {
+  content: "\f211"; }
+
+.fa-forward:before {
+  content: "\f04e"; }
+
+.fa-foursquare:before {
+  content: "\f180"; }
+
+.fa-free-code-camp:before {
+  content: "\f2c5"; }
+
+.fa-freebsd:before {
+  content: "\f3a4"; }
+
+.fa-frog:before {
+  content: "\f52e"; }
+
+.fa-frown:before {
+  content: "\f119"; }
+
+.fa-frown-open:before {
+  content: "\f57a"; }
+
+.fa-fulcrum:before {
+  content: "\f50b"; }
+
+.fa-funnel-dollar:before {
+  content: "\f662"; }
+
+.fa-futbol:before {
+  content: "\f1e3"; }
+
+.fa-galactic-republic:before {
+  content: "\f50c"; }
+
+.fa-galactic-senate:before {
+  content: "\f50d"; }
+
+.fa-gamepad:before {
+  content: "\f11b"; }
+
+.fa-gas-pump:before {
+  content: "\f52f"; }
+
+.fa-gavel:before {
+  content: "\f0e3"; }
+
+.fa-gem:before {
+  content: "\f3a5"; }
+
+.fa-genderless:before {
+  content: "\f22d"; }
+
+.fa-get-pocket:before {
+  content: "\f265"; }
+
+.fa-gg:before {
+  content: "\f260"; }
+
+.fa-gg-circle:before {
+  content: "\f261"; }
+
+.fa-ghost:before {
+  content: "\f6e2"; }
+
+.fa-gift:before {
+  content: "\f06b"; }
+
+.fa-gifts:before {
+  content: "\f79c"; }
+
+.fa-git:before {
+  content: "\f1d3"; }
+
+.fa-git-alt:before {
+  content: "\f841"; }
+
+.fa-git-square:before {
+  content: "\f1d2"; }
+
+.fa-github:before {
+  content: "\f09b"; }
+
+.fa-github-alt:before {
+  content: "\f113"; }
+
+.fa-github-square:before {
+  content: "\f092"; }
+
+.fa-gitkraken:before {
+  content: "\f3a6"; }
+
+.fa-gitlab:before {
+  content: "\f296"; }
+
+.fa-gitter:before {
+  content: "\f426"; }
+
+.fa-glass-cheers:before {
+  content: "\f79f"; }
+
+.fa-glass-martini:before {
+  content: "\f000"; }
+
+.fa-glass-martini-alt:before {
+  content: "\f57b"; }
+
+.fa-glass-whiskey:before {
+  content: "\f7a0"; }
+
+.fa-glasses:before {
+  content: "\f530"; }
+
+.fa-glide:before {
+  content: "\f2a5"; }
+
+.fa-glide-g:before {
+  content: "\f2a6"; }
+
+.fa-globe:before {
+  content: "\f0ac"; }
+
+.fa-globe-africa:before {
+  content: "\f57c"; }
+
+.fa-globe-americas:before {
+  content: "\f57d"; }
+
+.fa-globe-asia:before {
+  content: "\f57e"; }
+
+.fa-globe-europe:before {
+  content: "\f7a2"; }
+
+.fa-gofore:before {
+  content: "\f3a7"; }
+
+.fa-golf-ball:before {
+  content: "\f450"; }
+
+.fa-goodreads:before {
+  content: "\f3a8"; }
+
+.fa-goodreads-g:before {
+  content: "\f3a9"; }
+
+.fa-google:before {
+  content: "\f1a0"; }
+
+.fa-google-drive:before {
+  content: "\f3aa"; }
+
+.fa-google-play:before {
+  content: "\f3ab"; }
+
+.fa-google-plus:before {
+  content: "\f2b3"; }
+
+.fa-google-plus-g:before {
+  content: "\f0d5"; }
+
+.fa-google-plus-square:before {
+  content: "\f0d4"; }
+
+.fa-google-wallet:before {
+  content: "\f1ee"; }
+
+.fa-gopuram:before {
+  content: "\f664"; }
+
+.fa-graduation-cap:before {
+  content: "\f19d"; }
+
+.fa-gratipay:before {
+  content: "\f184"; }
+
+.fa-grav:before {
+  content: "\f2d6"; }
+
+.fa-greater-than:before {
+  content: "\f531"; }
+
+.fa-greater-than-equal:before {
+  content: "\f532"; }
+
+.fa-grimace:before {
+  content: "\f57f"; }
+
+.fa-grin:before {
+  content: "\f580"; }
+
+.fa-grin-alt:before {
+  content: "\f581"; }
+
+.fa-grin-beam:before {
+  content: "\f582"; }
+
+.fa-grin-beam-sweat:before {
+  content: "\f583"; }
+
+.fa-grin-hearts:before {
+  content: "\f584"; }
+
+.fa-grin-squint:before {
+  content: "\f585"; }
+
+.fa-grin-squint-tears:before {
+  content: "\f586"; }
+
+.fa-grin-stars:before {
+  content: "\f587"; }
+
+.fa-grin-tears:before {
+  content: "\f588"; }
+
+.fa-grin-tongue:before {
+  content: "\f589"; }
+
+.fa-grin-tongue-squint:before {
+  content: "\f58a"; }
+
+.fa-grin-tongue-wink:before {
+  content: "\f58b"; }
+
+.fa-grin-wink:before {
+  content: "\f58c"; }
+
+.fa-grip-horizontal:before {
+  content: "\f58d"; }
+
+.fa-grip-lines:before {
+  content: "\f7a4"; }
+
+.fa-grip-lines-vertical:before {
+  content: "\f7a5"; }
+
+.fa-grip-vertical:before {
+  content: "\f58e"; }
+
+.fa-gripfire:before {
+  content: "\f3ac"; }
+
+.fa-grunt:before {
+  content: "\f3ad"; }
+
+.fa-guitar:before {
+  content: "\f7a6"; }
+
+.fa-gulp:before {
+  content: "\f3ae"; }
+
+.fa-h-square:before {
+  content: "\f0fd"; }
+
+.fa-hacker-news:before {
+  content: "\f1d4"; }
+
+.fa-hacker-news-square:before {
+  content: "\f3af"; }
+
+.fa-hackerrank:before {
+  content: "\f5f7"; }
+
+.fa-hamburger:before {
+  content: "\f805"; }
+
+.fa-hammer:before {
+  content: "\f6e3"; }
+
+.fa-hamsa:before {
+  content: "\f665"; }
+
+.fa-hand-holding:before {
+  content: "\f4bd"; }
+
+.fa-hand-holding-heart:before {
+  content: "\f4be"; }
+
+.fa-hand-holding-usd:before {
+  content: "\f4c0"; }
+
+.fa-hand-lizard:before {
+  content: "\f258"; }
+
+.fa-hand-middle-finger:before {
+  content: "\f806"; }
+
+.fa-hand-paper:before {
+  content: "\f256"; }
+
+.fa-hand-peace:before {
+  content: "\f25b"; }
+
+.fa-hand-point-down:before {
+  content: "\f0a7"; }
+
+.fa-hand-point-left:before {
+  content: "\f0a5"; }
+
+.fa-hand-point-right:before {
+  content: "\f0a4"; }
+
+.fa-hand-point-up:before {
+  content: "\f0a6"; }
+
+.fa-hand-pointer:before {
+  content: "\f25a"; }
+
+.fa-hand-rock:before {
+  content: "\f255"; }
+
+.fa-hand-scissors:before {
+  content: "\f257"; }
+
+.fa-hand-spock:before {
+  content: "\f259"; }
+
+.fa-hands:before {
+  content: "\f4c2"; }
+
+.fa-hands-helping:before {
+  content: "\f4c4"; }
+
+.fa-handshake:before {
+  content: "\f2b5"; }
+
+.fa-hanukiah:before {
+  content: "\f6e6"; }
+
+.fa-hard-hat:before {
+  content: "\f807"; }
+
+.fa-hashtag:before {
+  content: "\f292"; }
+
+.fa-hat-wizard:before {
+  content: "\f6e8"; }
+
+.fa-haykal:before {
+  content: "\f666"; }
+
+.fa-hdd:before {
+  content: "\f0a0"; }
+
+.fa-heading:before {
+  content: "\f1dc"; }
+
+.fa-headphones:before {
+  content: "\f025"; }
+
+.fa-headphones-alt:before {
+  content: "\f58f"; }
+
+.fa-headset:before {
+  content: "\f590"; }
+
+.fa-heart:before {
+  content: "\f004"; }
+
+.fa-heart-broken:before {
+  content: "\f7a9"; }
+
+.fa-heartbeat:before {
+  content: "\f21e"; }
+
+.fa-helicopter:before {
+  content: "\f533"; }
+
+.fa-highlighter:before {
+  content: "\f591"; }
+
+.fa-hiking:before {
+  content: "\f6ec"; }
+
+.fa-hippo:before {
+  content: "\f6ed"; }
+
+.fa-hips:before {
+  content: "\f452"; }
+
+.fa-hire-a-helper:before {
+  content: "\f3b0"; }
+
+.fa-history:before {
+  content: "\f1da"; }
+
+.fa-hockey-puck:before {
+  content: "\f453"; }
+
+.fa-holly-berry:before {
+  content: "\f7aa"; }
+
+.fa-home:before {
+  content: "\f015"; }
+
+.fa-hooli:before {
+  content: "\f427"; }
+
+.fa-hornbill:before {
+  content: "\f592"; }
+
+.fa-horse:before {
+  content: "\f6f0"; }
+
+.fa-horse-head:before {
+  content: "\f7ab"; }
+
+.fa-hospital:before {
+  content: "\f0f8"; }
+
+.fa-hospital-alt:before {
+  content: "\f47d"; }
+
+.fa-hospital-symbol:before {
+  content: "\f47e"; }
+
+.fa-hot-tub:before {
+  content: "\f593"; }
+
+.fa-hotdog:before {
+  content: "\f80f"; }
+
+.fa-hotel:before {
+  content: "\f594"; }
+
+.fa-hotjar:before {
+  content: "\f3b1"; }
+
+.fa-hourglass:before {
+  content: "\f254"; }
+
+.fa-hourglass-end:before {
+  content: "\f253"; }
+
+.fa-hourglass-half:before {
+  content: "\f252"; }
+
+.fa-hourglass-start:before {
+  content: "\f251"; }
+
+.fa-house-damage:before {
+  content: "\f6f1"; }
+
+.fa-houzz:before {
+  content: "\f27c"; }
+
+.fa-hryvnia:before {
+  content: "\f6f2"; }
+
+.fa-html5:before {
+  content: "\f13b"; }
+
+.fa-hubspot:before {
+  content: "\f3b2"; }
+
+.fa-i-cursor:before {
+  content: "\f246"; }
+
+.fa-ice-cream:before {
+  content: "\f810"; }
+
+.fa-icicles:before {
+  content: "\f7ad"; }
+
+.fa-icons:before {
+  content: "\f86d"; }
+
+.fa-id-badge:before {
+  content: "\f2c1"; }
+
+.fa-id-card:before {
+  content: "\f2c2"; }
+
+.fa-id-card-alt:before {
+  content: "\f47f"; }
+
+.fa-igloo:before {
+  content: "\f7ae"; }
+
+.fa-image:before {
+  content: "\f03e"; }
+
+.fa-images:before {
+  content: "\f302"; }
+
+.fa-imdb:before {
+  content: "\f2d8"; }
+
+.fa-inbox:before {
+  content: "\f01c"; }
+
+.fa-indent:before {
+  content: "\f03c"; }
+
+.fa-industry:before {
+  content: "\f275"; }
+
+.fa-infinity:before {
+  content: "\f534"; }
+
+.fa-info:before {
+  content: "\f129"; }
+
+.fa-info-circle:before {
+  content: "\f05a"; }
+
+.fa-instagram:before {
+  content: "\f16d"; }
+
+.fa-intercom:before {
+  content: "\f7af"; }
+
+.fa-internet-explorer:before {
+  content: "\f26b"; }
+
+.fa-invision:before {
+  content: "\f7b0"; }
+
+.fa-ioxhost:before {
+  content: "\f208"; }
+
+.fa-italic:before {
+  content: "\f033"; }
+
+.fa-itch-io:before {
+  content: "\f83a"; }
+
+.fa-itunes:before {
+  content: "\f3b4"; }
+
+.fa-itunes-note:before {
+  content: "\f3b5"; }
+
+.fa-java:before {
+  content: "\f4e4"; }
+
+.fa-jedi:before {
+  content: "\f669"; }
+
+.fa-jedi-order:before {
+  content: "\f50e"; }
+
+.fa-jenkins:before {
+  content: "\f3b6"; }
+
+.fa-jira:before {
+  content: "\f7b1"; }
+
+.fa-joget:before {
+  content: "\f3b7"; }
+
+.fa-joint:before {
+  content: "\f595"; }
+
+.fa-joomla:before {
+  content: "\f1aa"; }
+
+.fa-journal-whills:before {
+  content: "\f66a"; }
+
+.fa-js:before {
+  content: "\f3b8"; }
+
+.fa-js-square:before {
+  content: "\f3b9"; }
+
+.fa-jsfiddle:before {
+  content: "\f1cc"; }
+
+.fa-kaaba:before {
+  content: "\f66b"; }
+
+.fa-kaggle:before {
+  content: "\f5fa"; }
+
+.fa-key:before {
+  content: "\f084"; }
+
+.fa-keybase:before {
+  content: "\f4f5"; }
+
+.fa-keyboard:before {
+  content: "\f11c"; }
+
+.fa-keycdn:before {
+  content: "\f3ba"; }
+
+.fa-khanda:before {
+  content: "\f66d"; }
+
+.fa-kickstarter:before {
+  content: "\f3bb"; }
+
+.fa-kickstarter-k:before {
+  content: "\f3bc"; }
+
+.fa-kiss:before {
+  content: "\f596"; }
+
+.fa-kiss-beam:before {
+  content: "\f597"; }
+
+.fa-kiss-wink-heart:before {
+  content: "\f598"; }
+
+.fa-kiwi-bird:before {
+  content: "\f535"; }
+
+.fa-korvue:before {
+  content: "\f42f"; }
+
+.fa-landmark:before {
+  content: "\f66f"; }
+
+.fa-language:before {
+  content: "\f1ab"; }
+
+.fa-laptop:before {
+  content: "\f109"; }
+
+.fa-laptop-code:before {
+  content: "\f5fc"; }
+
+.fa-laptop-medical:before {
+  content: "\f812"; }
+
+.fa-laravel:before {
+  content: "\f3bd"; }
+
+.fa-lastfm:before {
+  content: "\f202"; }
+
+.fa-lastfm-square:before {
+  content: "\f203"; }
+
+.fa-laugh:before {
+  content: "\f599"; }
+
+.fa-laugh-beam:before {
+  content: "\f59a"; }
+
+.fa-laugh-squint:before {
+  content: "\f59b"; }
+
+.fa-laugh-wink:before {
+  content: "\f59c"; }
+
+.fa-layer-group:before {
+  content: "\f5fd"; }
+
+.fa-leaf:before {
+  content: "\f06c"; }
+
+.fa-leanpub:before {
+  content: "\f212"; }
+
+.fa-lemon:before {
+  content: "\f094"; }
+
+.fa-less:before {
+  content: "\f41d"; }
+
+.fa-less-than:before {
+  content: "\f536"; }
+
+.fa-less-than-equal:before {
+  content: "\f537"; }
+
+.fa-level-down-alt:before {
+  content: "\f3be"; }
+
+.fa-level-up-alt:before {
+  content: "\f3bf"; }
+
+.fa-life-ring:before {
+  content: "\f1cd"; }
+
+.fa-lightbulb:before {
+  content: "\f0eb"; }
+
+.fa-line:before {
+  content: "\f3c0"; }
+
+.fa-link:before {
+  content: "\f0c1"; }
+
+.fa-linkedin:before {
+  content: "\f08c"; }
+
+.fa-linkedin-in:before {
+  content: "\f0e1"; }
+
+.fa-linode:before {
+  content: "\f2b8"; }
+
+.fa-linux:before {
+  content: "\f17c"; }
+
+.fa-lira-sign:before {
+  content: "\f195"; }
+
+.fa-list:before {
+  content: "\f03a"; }
+
+.fa-list-alt:before {
+  content: "\f022"; }
+
+.fa-list-ol:before {
+  content: "\f0cb"; }
+
+.fa-list-ul:before {
+  content: "\f0ca"; }
+
+.fa-location-arrow:before {
+  content: "\f124"; }
+
+.fa-lock:before {
+  content: "\f023"; }
+
+.fa-lock-open:before {
+  content: "\f3c1"; }
+
+.fa-long-arrow-alt-down:before {
+  content: "\f309"; }
+
+.fa-long-arrow-alt-left:before {
+  content: "\f30a"; }
+
+.fa-long-arrow-alt-right:before {
+  content: "\f30b"; }
+
+.fa-long-arrow-alt-up:before {
+  content: "\f30c"; }
+
+.fa-low-vision:before {
+  content: "\f2a8"; }
+
+.fa-luggage-cart:before {
+  content: "\f59d"; }
+
+.fa-lyft:before {
+  content: "\f3c3"; }
+
+.fa-magento:before {
+  content: "\f3c4"; }
+
+.fa-magic:before {
+  content: "\f0d0"; }
+
+.fa-magnet:before {
+  content: "\f076"; }
+
+.fa-mail-bulk:before {
+  content: "\f674"; }
+
+.fa-mailchimp:before {
+  content: "\f59e"; }
+
+.fa-male:before {
+  content: "\f183"; }
+
+.fa-mandalorian:before {
+  content: "\f50f"; }
+
+.fa-map:before {
+  content: "\f279"; }
+
+.fa-map-marked:before {
+  content: "\f59f"; }
+
+.fa-map-marked-alt:before {
+  content: "\f5a0"; }
+
+.fa-map-marker:before {
+  content: "\f041"; }
+
+.fa-map-marker-alt:before {
+  content: "\f3c5"; }
+
+.fa-map-pin:before {
+  content: "\f276"; }
+
+.fa-map-signs:before {
+  content: "\f277"; }
+
+.fa-markdown:before {
+  content: "\f60f"; }
+
+.fa-marker:before {
+  content: "\f5a1"; }
+
+.fa-mars:before {
+  content: "\f222"; }
+
+.fa-mars-double:before {
+  content: "\f227"; }
+
+.fa-mars-stroke:before {
+  content: "\f229"; }
+
+.fa-mars-stroke-h:before {
+  content: "\f22b"; }
+
+.fa-mars-stroke-v:before {
+  content: "\f22a"; }
+
+.fa-mask:before {
+  content: "\f6fa"; }
+
+.fa-mastodon:before {
+  content: "\f4f6"; }
+
+.fa-maxcdn:before {
+  content: "\f136"; }
+
+.fa-medal:before {
+  content: "\f5a2"; }
+
+.fa-medapps:before {
+  content: "\f3c6"; }
+
+.fa-medium:before {
+  content: "\f23a"; }
+
+.fa-medium-m:before {
+  content: "\f3c7"; }
+
+.fa-medkit:before {
+  content: "\f0fa"; }
+
+.fa-medrt:before {
+  content: "\f3c8"; }
+
+.fa-meetup:before {
+  content: "\f2e0"; }
+
+.fa-megaport:before {
+  content: "\f5a3"; }
+
+.fa-meh:before {
+  content: "\f11a"; }
+
+.fa-meh-blank:before {
+  content: "\f5a4"; }
+
+.fa-meh-rolling-eyes:before {
+  content: "\f5a5"; }
+
+.fa-memory:before {
+  content: "\f538"; }
+
+.fa-mendeley:before {
+  content: "\f7b3"; }
+
+.fa-menorah:before {
+  content: "\f676"; }
+
+.fa-mercury:before {
+  content: "\f223"; }
+
+.fa-meteor:before {
+  content: "\f753"; }
+
+.fa-microchip:before {
+  content: "\f2db"; }
+
+.fa-microphone:before {
+  content: "\f130"; }
+
+.fa-microphone-alt:before {
+  content: "\f3c9"; }
+
+.fa-microphone-alt-slash:before {
+  content: "\f539"; }
+
+.fa-microphone-slash:before {
+  content: "\f131"; }
+
+.fa-microscope:before {
+  content: "\f610"; }
+
+.fa-microsoft:before {
+  content: "\f3ca"; }
+
+.fa-minus:before {
+  content: "\f068"; }
+
+.fa-minus-circle:before {
+  content: "\f056"; }
+
+.fa-minus-square:before {
+  content: "\f146"; }
+
+.fa-mitten:before {
+  content: "\f7b5"; }
+
+.fa-mix:before {
+  content: "\f3cb"; }
+
+.fa-mixcloud:before {
+  content: "\f289"; }
+
+.fa-mizuni:before {
+  content: "\f3cc"; }
+
+.fa-mobile:before {
+  content: "\f10b"; }
+
+.fa-mobile-alt:before {
+  content: "\f3cd"; }
+
+.fa-modx:before {
+  content: "\f285"; }
+
+.fa-monero:before {
+  content: "\f3d0"; }
+
+.fa-money-bill:before {
+  content: "\f0d6"; }
+
+.fa-money-bill-alt:before {
+  content: "\f3d1"; }
+
+.fa-money-bill-wave:before {
+  content: "\f53a"; }
+
+.fa-money-bill-wave-alt:before {
+  content: "\f53b"; }
+
+.fa-money-check:before {
+  content: "\f53c"; }
+
+.fa-money-check-alt:before {
+  content: "\f53d"; }
+
+.fa-monument:before {
+  content: "\f5a6"; }
+
+.fa-moon:before {
+  content: "\f186"; }
+
+.fa-mortar-pestle:before {
+  content: "\f5a7"; }
+
+.fa-mosque:before {
+  content: "\f678"; }
+
+.fa-motorcycle:before {
+  content: "\f21c"; }
+
+.fa-mountain:before {
+  content: "\f6fc"; }
+
+.fa-mouse-pointer:before {
+  content: "\f245"; }
+
+.fa-mug-hot:before {
+  content: "\f7b6"; }
+
+.fa-music:before {
+  content: "\f001"; }
+
+.fa-napster:before {
+  content: "\f3d2"; }
+
+.fa-neos:before {
+  content: "\f612"; }
+
+.fa-network-wired:before {
+  content: "\f6ff"; }
+
+.fa-neuter:before {
+  content: "\f22c"; }
+
+.fa-newspaper:before {
+  content: "\f1ea"; }
+
+.fa-nimblr:before {
+  content: "\f5a8"; }
+
+.fa-node:before {
+  content: "\f419"; }
+
+.fa-node-js:before {
+  content: "\f3d3"; }
+
+.fa-not-equal:before {
+  content: "\f53e"; }
+
+.fa-notes-medical:before {
+  content: "\f481"; }
+
+.fa-npm:before {
+  content: "\f3d4"; }
+
+.fa-ns8:before {
+  content: "\f3d5"; }
+
+.fa-nutritionix:before {
+  content: "\f3d6"; }
+
+.fa-object-group:before {
+  content: "\f247"; }
+
+.fa-object-ungroup:before {
+  content: "\f248"; }
+
+.fa-odnoklassniki:before {
+  content: "\f263"; }
+
+.fa-odnoklassniki-square:before {
+  content: "\f264"; }
+
+.fa-oil-can:before {
+  content: "\f613"; }
+
+.fa-old-republic:before {
+  content: "\f510"; }
+
+.fa-om:before {
+  content: "\f679"; }
+
+.fa-opencart:before {
+  content: "\f23d"; }
+
+.fa-openid:before {
+  content: "\f19b"; }
+
+.fa-opera:before {
+  content: "\f26a"; }
+
+.fa-optin-monster:before {
+  content: "\f23c"; }
+
+.fa-osi:before {
+  content: "\f41a"; }
+
+.fa-otter:before {
+  content: "\f700"; }
+
+.fa-outdent:before {
+  content: "\f03b"; }
+
+.fa-page4:before {
+  content: "\f3d7"; }
+
+.fa-pagelines:before {
+  content: "\f18c"; }
+
+.fa-pager:before {
+  content: "\f815"; }
+
+.fa-paint-brush:before {
+  content: "\f1fc"; }
+
+.fa-paint-roller:before {
+  content: "\f5aa"; }
+
+.fa-palette:before {
+  content: "\f53f"; }
+
+.fa-palfed:before {
+  content: "\f3d8"; }
+
+.fa-pallet:before {
+  content: "\f482"; }
+
+.fa-paper-plane:before {
+  content: "\f1d8"; }
+
+.fa-paperclip:before {
+  content: "\f0c6"; }
+
+.fa-parachute-box:before {
+  content: "\f4cd"; }
+
+.fa-paragraph:before {
+  content: "\f1dd"; }
+
+.fa-parking:before {
+  content: "\f540"; }
+
+.fa-passport:before {
+  content: "\f5ab"; }
+
+.fa-pastafarianism:before {
+  content: "\f67b"; }
+
+.fa-paste:before {
+  content: "\f0ea"; }
+
+.fa-patreon:before {
+  content: "\f3d9"; }
+
+.fa-pause:before {
+  content: "\f04c"; }
+
+.fa-pause-circle:before {
+  content: "\f28b"; }
+
+.fa-paw:before {
+  content: "\f1b0"; }
+
+.fa-paypal:before {
+  content: "\f1ed"; }
+
+.fa-peace:before {
+  content: "\f67c"; }
+
+.fa-pen:before {
+  content: "\f304"; }
+
+.fa-pen-alt:before {
+  content: "\f305"; }
+
+.fa-pen-fancy:before {
+  content: "\f5ac"; }
+
+.fa-pen-nib:before {
+  content: "\f5ad"; }
+
+.fa-pen-square:before {
+  content: "\f14b"; }
+
+.fa-pencil-alt:before {
+  content: "\f303"; }
+
+.fa-pencil-ruler:before {
+  content: "\f5ae"; }
+
+.fa-penny-arcade:before {
+  content: "\f704"; }
+
+.fa-people-carry:before {
+  content: "\f4ce"; }
+
+.fa-pepper-hot:before {
+  content: "\f816"; }
+
+.fa-percent:before {
+  content: "\f295"; }
+
+.fa-percentage:before {
+  content: "\f541"; }
+
+.fa-periscope:before {
+  content: "\f3da"; }
+
+.fa-person-booth:before {
+  content: "\f756"; }
+
+.fa-phabricator:before {
+  content: "\f3db"; }
+
+.fa-phoenix-framework:before {
+  content: "\f3dc"; }
+
+.fa-phoenix-squadron:before {
+  content: "\f511"; }
+
+.fa-phone:before {
+  content: "\f095"; }
+
+.fa-phone-alt:before {
+  content: "\f879"; }
+
+.fa-phone-slash:before {
+  content: "\f3dd"; }
+
+.fa-phone-square:before {
+  content: "\f098"; }
+
+.fa-phone-square-alt:before {
+  content: "\f87b"; }
+
+.fa-phone-volume:before {
+  content: "\f2a0"; }
+
+.fa-photo-video:before {
+  content: "\f87c"; }
+
+.fa-php:before {
+  content: "\f457"; }
+
+.fa-pied-piper:before {
+  content: "\f2ae"; }
+
+.fa-pied-piper-alt:before {
+  content: "\f1a8"; }
+
+.fa-pied-piper-hat:before {
+  content: "\f4e5"; }
+
+.fa-pied-piper-pp:before {
+  content: "\f1a7"; }
+
+.fa-piggy-bank:before {
+  content: "\f4d3"; }
+
+.fa-pills:before {
+  content: "\f484"; }
+
+.fa-pinterest:before {
+  content: "\f0d2"; }
+
+.fa-pinterest-p:before {
+  content: "\f231"; }
+
+.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
+.fa-pizza-slice:before {
+  content: "\f818"; }
+
+.fa-place-of-worship:before {
+  content: "\f67f"; }
+
+.fa-plane:before {
+  content: "\f072"; }
+
+.fa-plane-arrival:before {
+  content: "\f5af"; }
+
+.fa-plane-departure:before {
+  content: "\f5b0"; }
+
+.fa-play:before {
+  content: "\f04b"; }
+
+.fa-play-circle:before {
+  content: "\f144"; }
+
+.fa-playstation:before {
+  content: "\f3df"; }
+
+.fa-plug:before {
+  content: "\f1e6"; }
+
+.fa-plus:before {
+  content: "\f067"; }
+
+.fa-plus-circle:before {
+  content: "\f055"; }
+
+.fa-plus-square:before {
+  content: "\f0fe"; }
+
+.fa-podcast:before {
+  content: "\f2ce"; }
+
+.fa-poll:before {
+  content: "\f681"; }
+
+.fa-poll-h:before {
+  content: "\f682"; }
+
+.fa-poo:before {
+  content: "\f2fe"; }
+
+.fa-poo-storm:before {
+  content: "\f75a"; }
+
+.fa-poop:before {
+  content: "\f619"; }
+
+.fa-portrait:before {
+  content: "\f3e0"; }
+
+.fa-pound-sign:before {
+  content: "\f154"; }
+
+.fa-power-off:before {
+  content: "\f011"; }
+
+.fa-pray:before {
+  content: "\f683"; }
+
+.fa-praying-hands:before {
+  content: "\f684"; }
+
+.fa-prescription:before {
+  content: "\f5b1"; }
+
+.fa-prescription-bottle:before {
+  content: "\f485"; }
+
+.fa-prescription-bottle-alt:before {
+  content: "\f486"; }
+
+.fa-print:before {
+  content: "\f02f"; }
+
+.fa-procedures:before {
+  content: "\f487"; }
+
+.fa-product-hunt:before {
+  content: "\f288"; }
+
+.fa-project-diagram:before {
+  content: "\f542"; }
+
+.fa-pushed:before {
+  content: "\f3e1"; }
+
+.fa-puzzle-piece:before {
+  content: "\f12e"; }
+
+.fa-python:before {
+  content: "\f3e2"; }
+
+.fa-qq:before {
+  content: "\f1d6"; }
+
+.fa-qrcode:before {
+  content: "\f029"; }
+
+.fa-question:before {
+  content: "\f128"; }
+
+.fa-question-circle:before {
+  content: "\f059"; }
+
+.fa-quidditch:before {
+  content: "\f458"; }
+
+.fa-quinscape:before {
+  content: "\f459"; }
+
+.fa-quora:before {
+  content: "\f2c4"; }
+
+.fa-quote-left:before {
+  content: "\f10d"; }
+
+.fa-quote-right:before {
+  content: "\f10e"; }
+
+.fa-quran:before {
+  content: "\f687"; }
+
+.fa-r-project:before {
+  content: "\f4f7"; }
+
+.fa-radiation:before {
+  content: "\f7b9"; }
+
+.fa-radiation-alt:before {
+  content: "\f7ba"; }
+
+.fa-rainbow:before {
+  content: "\f75b"; }
+
+.fa-random:before {
+  content: "\f074"; }
+
+.fa-raspberry-pi:before {
+  content: "\f7bb"; }
+
+.fa-ravelry:before {
+  content: "\f2d9"; }
+
+.fa-react:before {
+  content: "\f41b"; }
+
+.fa-reacteurope:before {
+  content: "\f75d"; }
+
+.fa-readme:before {
+  content: "\f4d5"; }
+
+.fa-rebel:before {
+  content: "\f1d0"; }
+
+.fa-receipt:before {
+  content: "\f543"; }
+
+.fa-recycle:before {
+  content: "\f1b8"; }
+
+.fa-red-river:before {
+  content: "\f3e3"; }
+
+.fa-reddit:before {
+  content: "\f1a1"; }
+
+.fa-reddit-alien:before {
+  content: "\f281"; }
+
+.fa-reddit-square:before {
+  content: "\f1a2"; }
+
+.fa-redhat:before {
+  content: "\f7bc"; }
+
+.fa-redo:before {
+  content: "\f01e"; }
+
+.fa-redo-alt:before {
+  content: "\f2f9"; }
+
+.fa-registered:before {
+  content: "\f25d"; }
+
+.fa-remove-format:before {
+  content: "\f87d"; }
+
+.fa-renren:before {
+  content: "\f18b"; }
+
+.fa-reply:before {
+  content: "\f3e5"; }
+
+.fa-reply-all:before {
+  content: "\f122"; }
+
+.fa-replyd:before {
+  content: "\f3e6"; }
+
+.fa-republican:before {
+  content: "\f75e"; }
+
+.fa-researchgate:before {
+  content: "\f4f8"; }
+
+.fa-resolving:before {
+  content: "\f3e7"; }
+
+.fa-restroom:before {
+  content: "\f7bd"; }
+
+.fa-retweet:before {
+  content: "\f079"; }
+
+.fa-rev:before {
+  content: "\f5b2"; }
+
+.fa-ribbon:before {
+  content: "\f4d6"; }
+
+.fa-ring:before {
+  content: "\f70b"; }
+
+.fa-road:before {
+  content: "\f018"; }
+
+.fa-robot:before {
+  content: "\f544"; }
+
+.fa-rocket:before {
+  content: "\f135"; }
+
+.fa-rocketchat:before {
+  content: "\f3e8"; }
+
+.fa-rockrms:before {
+  content: "\f3e9"; }
+
+.fa-route:before {
+  content: "\f4d7"; }
+
+.fa-rss:before {
+  content: "\f09e"; }
+
+.fa-rss-square:before {
+  content: "\f143"; }
+
+.fa-ruble-sign:before {
+  content: "\f158"; }
+
+.fa-ruler:before {
+  content: "\f545"; }
+
+.fa-ruler-combined:before {
+  content: "\f546"; }
+
+.fa-ruler-horizontal:before {
+  content: "\f547"; }
+
+.fa-ruler-vertical:before {
+  content: "\f548"; }
+
+.fa-running:before {
+  content: "\f70c"; }
+
+.fa-rupee-sign:before {
+  content: "\f156"; }
+
+.fa-sad-cry:before {
+  content: "\f5b3"; }
+
+.fa-sad-tear:before {
+  content: "\f5b4"; }
+
+.fa-safari:before {
+  content: "\f267"; }
+
+.fa-salesforce:before {
+  content: "\f83b"; }
+
+.fa-sass:before {
+  content: "\f41e"; }
+
+.fa-satellite:before {
+  content: "\f7bf"; }
+
+.fa-satellite-dish:before {
+  content: "\f7c0"; }
+
+.fa-save:before {
+  content: "\f0c7"; }
+
+.fa-schlix:before {
+  content: "\f3ea"; }
+
+.fa-school:before {
+  content: "\f549"; }
+
+.fa-screwdriver:before {
+  content: "\f54a"; }
+
+.fa-scribd:before {
+  content: "\f28a"; }
+
+.fa-scroll:before {
+  content: "\f70e"; }
+
+.fa-sd-card:before {
+  content: "\f7c2"; }
+
+.fa-search:before {
+  content: "\f002"; }
+
+.fa-search-dollar:before {
+  content: "\f688"; }
+
+.fa-search-location:before {
+  content: "\f689"; }
+
+.fa-search-minus:before {
+  content: "\f010"; }
+
+.fa-search-plus:before {
+  content: "\f00e"; }
+
+.fa-searchengin:before {
+  content: "\f3eb"; }
+
+.fa-seedling:before {
+  content: "\f4d8"; }
+
+.fa-sellcast:before {
+  content: "\f2da"; }
+
+.fa-sellsy:before {
+  content: "\f213"; }
+
+.fa-server:before {
+  content: "\f233"; }
+
+.fa-servicestack:before {
+  content: "\f3ec"; }
+
+.fa-shapes:before {
+  content: "\f61f"; }
+
+.fa-share:before {
+  content: "\f064"; }
+
+.fa-share-alt:before {
+  content: "\f1e0"; }
+
+.fa-share-alt-square:before {
+  content: "\f1e1"; }
+
+.fa-share-square:before {
+  content: "\f14d"; }
+
+.fa-shekel-sign:before {
+  content: "\f20b"; }
+
+.fa-shield-alt:before {
+  content: "\f3ed"; }
+
+.fa-ship:before {
+  content: "\f21a"; }
+
+.fa-shipping-fast:before {
+  content: "\f48b"; }
+
+.fa-shirtsinbulk:before {
+  content: "\f214"; }
+
+.fa-shoe-prints:before {
+  content: "\f54b"; }
+
+.fa-shopping-bag:before {
+  content: "\f290"; }
+
+.fa-shopping-basket:before {
+  content: "\f291"; }
+
+.fa-shopping-cart:before {
+  content: "\f07a"; }
+
+.fa-shopware:before {
+  content: "\f5b5"; }
+
+.fa-shower:before {
+  content: "\f2cc"; }
+
+.fa-shuttle-van:before {
+  content: "\f5b6"; }
+
+.fa-sign:before {
+  content: "\f4d9"; }
+
+.fa-sign-in-alt:before {
+  content: "\f2f6"; }
+
+.fa-sign-language:before {
+  content: "\f2a7"; }
+
+.fa-sign-out-alt:before {
+  content: "\f2f5"; }
+
+.fa-signal:before {
+  content: "\f012"; }
+
+.fa-signature:before {
+  content: "\f5b7"; }
+
+.fa-sim-card:before {
+  content: "\f7c4"; }
+
+.fa-simplybuilt:before {
+  content: "\f215"; }
+
+.fa-sistrix:before {
+  content: "\f3ee"; }
+
+.fa-sitemap:before {
+  content: "\f0e8"; }
+
+.fa-sith:before {
+  content: "\f512"; }
+
+.fa-skating:before {
+  content: "\f7c5"; }
+
+.fa-sketch:before {
+  content: "\f7c6"; }
+
+.fa-skiing:before {
+  content: "\f7c9"; }
+
+.fa-skiing-nordic:before {
+  content: "\f7ca"; }
+
+.fa-skull:before {
+  content: "\f54c"; }
+
+.fa-skull-crossbones:before {
+  content: "\f714"; }
+
+.fa-skyatlas:before {
+  content: "\f216"; }
+
+.fa-skype:before {
+  content: "\f17e"; }
+
+.fa-slack:before {
+  content: "\f198"; }
+
+.fa-slack-hash:before {
+  content: "\f3ef"; }
+
+.fa-slash:before {
+  content: "\f715"; }
+
+.fa-sleigh:before {
+  content: "\f7cc"; }
+
+.fa-sliders-h:before {
+  content: "\f1de"; }
+
+.fa-slideshare:before {
+  content: "\f1e7"; }
+
+.fa-smile:before {
+  content: "\f118"; }
+
+.fa-smile-beam:before {
+  content: "\f5b8"; }
+
+.fa-smile-wink:before {
+  content: "\f4da"; }
+
+.fa-smog:before {
+  content: "\f75f"; }
+
+.fa-smoking:before {
+  content: "\f48d"; }
+
+.fa-smoking-ban:before {
+  content: "\f54d"; }
+
+.fa-sms:before {
+  content: "\f7cd"; }
+
+.fa-snapchat:before {
+  content: "\f2ab"; }
+
+.fa-snapchat-ghost:before {
+  content: "\f2ac"; }
+
+.fa-snapchat-square:before {
+  content: "\f2ad"; }
+
+.fa-snowboarding:before {
+  content: "\f7ce"; }
+
+.fa-snowflake:before {
+  content: "\f2dc"; }
+
+.fa-snowman:before {
+  content: "\f7d0"; }
+
+.fa-snowplow:before {
+  content: "\f7d2"; }
+
+.fa-socks:before {
+  content: "\f696"; }
+
+.fa-solar-panel:before {
+  content: "\f5ba"; }
+
+.fa-sort:before {
+  content: "\f0dc"; }
+
+.fa-sort-alpha-down:before {
+  content: "\f15d"; }
+
+.fa-sort-alpha-down-alt:before {
+  content: "\f881"; }
+
+.fa-sort-alpha-up:before {
+  content: "\f15e"; }
+
+.fa-sort-alpha-up-alt:before {
+  content: "\f882"; }
+
+.fa-sort-amount-down:before {
+  content: "\f160"; }
+
+.fa-sort-amount-down-alt:before {
+  content: "\f884"; }
+
+.fa-sort-amount-up:before {
+  content: "\f161"; }
+
+.fa-sort-amount-up-alt:before {
+  content: "\f885"; }
+
+.fa-sort-down:before {
+  content: "\f0dd"; }
+
+.fa-sort-numeric-down:before {
+  content: "\f162"; }
+
+.fa-sort-numeric-down-alt:before {
+  content: "\f886"; }
+
+.fa-sort-numeric-up:before {
+  content: "\f163"; }
+
+.fa-sort-numeric-up-alt:before {
+  content: "\f887"; }
+
+.fa-sort-up:before {
+  content: "\f0de"; }
+
+.fa-soundcloud:before {
+  content: "\f1be"; }
+
+.fa-sourcetree:before {
+  content: "\f7d3"; }
+
+.fa-spa:before {
+  content: "\f5bb"; }
+
+.fa-space-shuttle:before {
+  content: "\f197"; }
+
+.fa-speakap:before {
+  content: "\f3f3"; }
+
+.fa-speaker-deck:before {
+  content: "\f83c"; }
+
+.fa-spell-check:before {
+  content: "\f891"; }
+
+.fa-spider:before {
+  content: "\f717"; }
+
+.fa-spinner:before {
+  content: "\f110"; }
+
+.fa-splotch:before {
+  content: "\f5bc"; }
+
+.fa-spotify:before {
+  content: "\f1bc"; }
+
+.fa-spray-can:before {
+  content: "\f5bd"; }
+
+.fa-square:before {
+  content: "\f0c8"; }
+
+.fa-square-full:before {
+  content: "\f45c"; }
+
+.fa-square-root-alt:before {
+  content: "\f698"; }
+
+.fa-squarespace:before {
+  content: "\f5be"; }
+
+.fa-stack-exchange:before {
+  content: "\f18d"; }
+
+.fa-stack-overflow:before {
+  content: "\f16c"; }
+
+.fa-stackpath:before {
+  content: "\f842"; }
+
+.fa-stamp:before {
+  content: "\f5bf"; }
+
+.fa-star:before {
+  content: "\f005"; }
+
+.fa-star-and-crescent:before {
+  content: "\f699"; }
+
+.fa-star-half:before {
+  content: "\f089"; }
+
+.fa-star-half-alt:before {
+  content: "\f5c0"; }
+
+.fa-star-of-david:before {
+  content: "\f69a"; }
+
+.fa-star-of-life:before {
+  content: "\f621"; }
+
+.fa-staylinked:before {
+  content: "\f3f5"; }
+
+.fa-steam:before {
+  content: "\f1b6"; }
+
+.fa-steam-square:before {
+  content: "\f1b7"; }
+
+.fa-steam-symbol:before {
+  content: "\f3f6"; }
+
+.fa-step-backward:before {
+  content: "\f048"; }
+
+.fa-step-forward:before {
+  content: "\f051"; }
+
+.fa-stethoscope:before {
+  content: "\f0f1"; }
+
+.fa-sticker-mule:before {
+  content: "\f3f7"; }
+
+.fa-sticky-note:before {
+  content: "\f249"; }
+
+.fa-stop:before {
+  content: "\f04d"; }
+
+.fa-stop-circle:before {
+  content: "\f28d"; }
+
+.fa-stopwatch:before {
+  content: "\f2f2"; }
+
+.fa-store:before {
+  content: "\f54e"; }
+
+.fa-store-alt:before {
+  content: "\f54f"; }
+
+.fa-strava:before {
+  content: "\f428"; }
+
+.fa-stream:before {
+  content: "\f550"; }
+
+.fa-street-view:before {
+  content: "\f21d"; }
+
+.fa-strikethrough:before {
+  content: "\f0cc"; }
+
+.fa-stripe:before {
+  content: "\f429"; }
+
+.fa-stripe-s:before {
+  content: "\f42a"; }
+
+.fa-stroopwafel:before {
+  content: "\f551"; }
+
+.fa-studiovinari:before {
+  content: "\f3f8"; }
+
+.fa-stumbleupon:before {
+  content: "\f1a4"; }
+
+.fa-stumbleupon-circle:before {
+  content: "\f1a3"; }
+
+.fa-subscript:before {
+  content: "\f12c"; }
+
+.fa-subway:before {
+  content: "\f239"; }
+
+.fa-suitcase:before {
+  content: "\f0f2"; }
+
+.fa-suitcase-rolling:before {
+  content: "\f5c1"; }
+
+.fa-sun:before {
+  content: "\f185"; }
+
+.fa-superpowers:before {
+  content: "\f2dd"; }
+
+.fa-superscript:before {
+  content: "\f12b"; }
+
+.fa-supple:before {
+  content: "\f3f9"; }
+
+.fa-surprise:before {
+  content: "\f5c2"; }
+
+.fa-suse:before {
+  content: "\f7d6"; }
+
+.fa-swatchbook:before {
+  content: "\f5c3"; }
+
+.fa-swimmer:before {
+  content: "\f5c4"; }
+
+.fa-swimming-pool:before {
+  content: "\f5c5"; }
+
+.fa-symfony:before {
+  content: "\f83d"; }
+
+.fa-synagogue:before {
+  content: "\f69b"; }
+
+.fa-sync:before {
+  content: "\f021"; }
+
+.fa-sync-alt:before {
+  content: "\f2f1"; }
+
+.fa-syringe:before {
+  content: "\f48e"; }
+
+.fa-table:before {
+  content: "\f0ce"; }
+
+.fa-table-tennis:before {
+  content: "\f45d"; }
+
+.fa-tablet:before {
+  content: "\f10a"; }
+
+.fa-tablet-alt:before {
+  content: "\f3fa"; }
+
+.fa-tablets:before {
+  content: "\f490"; }
+
+.fa-tachometer-alt:before {
+  content: "\f3fd"; }
+
+.fa-tag:before {
+  content: "\f02b"; }
+
+.fa-tags:before {
+  content: "\f02c"; }
+
+.fa-tape:before {
+  content: "\f4db"; }
+
+.fa-tasks:before {
+  content: "\f0ae"; }
+
+.fa-taxi:before {
+  content: "\f1ba"; }
+
+.fa-teamspeak:before {
+  content: "\f4f9"; }
+
+.fa-teeth:before {
+  content: "\f62e"; }
+
+.fa-teeth-open:before {
+  content: "\f62f"; }
+
+.fa-telegram:before {
+  content: "\f2c6"; }
+
+.fa-telegram-plane:before {
+  content: "\f3fe"; }
+
+.fa-temperature-high:before {
+  content: "\f769"; }
+
+.fa-temperature-low:before {
+  content: "\f76b"; }
+
+.fa-tencent-weibo:before {
+  content: "\f1d5"; }
+
+.fa-tenge:before {
+  content: "\f7d7"; }
+
+.fa-terminal:before {
+  content: "\f120"; }
+
+.fa-text-height:before {
+  content: "\f034"; }
+
+.fa-text-width:before {
+  content: "\f035"; }
+
+.fa-th:before {
+  content: "\f00a"; }
+
+.fa-th-large:before {
+  content: "\f009"; }
+
+.fa-th-list:before {
+  content: "\f00b"; }
+
+.fa-the-red-yeti:before {
+  content: "\f69d"; }
+
+.fa-theater-masks:before {
+  content: "\f630"; }
+
+.fa-themeco:before {
+  content: "\f5c6"; }
+
+.fa-themeisle:before {
+  content: "\f2b2"; }
+
+.fa-thermometer:before {
+  content: "\f491"; }
+
+.fa-thermometer-empty:before {
+  content: "\f2cb"; }
+
+.fa-thermometer-full:before {
+  content: "\f2c7"; }
+
+.fa-thermometer-half:before {
+  content: "\f2c9"; }
+
+.fa-thermometer-quarter:before {
+  content: "\f2ca"; }
+
+.fa-thermometer-three-quarters:before {
+  content: "\f2c8"; }
+
+.fa-think-peaks:before {
+  content: "\f731"; }
+
+.fa-thumbs-down:before {
+  content: "\f165"; }
+
+.fa-thumbs-up:before {
+  content: "\f164"; }
+
+.fa-thumbtack:before {
+  content: "\f08d"; }
+
+.fa-ticket-alt:before {
+  content: "\f3ff"; }
+
+.fa-times:before {
+  content: "\f00d"; }
+
+.fa-times-circle:before {
+  content: "\f057"; }
+
+.fa-tint:before {
+  content: "\f043"; }
+
+.fa-tint-slash:before {
+  content: "\f5c7"; }
+
+.fa-tired:before {
+  content: "\f5c8"; }
+
+.fa-toggle-off:before {
+  content: "\f204"; }
+
+.fa-toggle-on:before {
+  content: "\f205"; }
+
+.fa-toilet:before {
+  content: "\f7d8"; }
+
+.fa-toilet-paper:before {
+  content: "\f71e"; }
+
+.fa-toolbox:before {
+  content: "\f552"; }
+
+.fa-tools:before {
+  content: "\f7d9"; }
+
+.fa-tooth:before {
+  content: "\f5c9"; }
+
+.fa-torah:before {
+  content: "\f6a0"; }
+
+.fa-torii-gate:before {
+  content: "\f6a1"; }
+
+.fa-tractor:before {
+  content: "\f722"; }
+
+.fa-trade-federation:before {
+  content: "\f513"; }
+
+.fa-trademark:before {
+  content: "\f25c"; }
+
+.fa-traffic-light:before {
+  content: "\f637"; }
+
+.fa-train:before {
+  content: "\f238"; }
+
+.fa-tram:before {
+  content: "\f7da"; }
+
+.fa-transgender:before {
+  content: "\f224"; }
+
+.fa-transgender-alt:before {
+  content: "\f225"; }
+
+.fa-trash:before {
+  content: "\f1f8"; }
+
+.fa-trash-alt:before {
+  content: "\f2ed"; }
+
+.fa-trash-restore:before {
+  content: "\f829"; }
+
+.fa-trash-restore-alt:before {
+  content: "\f82a"; }
+
+.fa-tree:before {
+  content: "\f1bb"; }
+
+.fa-trello:before {
+  content: "\f181"; }
+
+.fa-tripadvisor:before {
+  content: "\f262"; }
+
+.fa-trophy:before {
+  content: "\f091"; }
+
+.fa-truck:before {
+  content: "\f0d1"; }
+
+.fa-truck-loading:before {
+  content: "\f4de"; }
+
+.fa-truck-monster:before {
+  content: "\f63b"; }
+
+.fa-truck-moving:before {
+  content: "\f4df"; }
+
+.fa-truck-pickup:before {
+  content: "\f63c"; }
+
+.fa-tshirt:before {
+  content: "\f553"; }
+
+.fa-tty:before {
+  content: "\f1e4"; }
+
+.fa-tumblr:before {
+  content: "\f173"; }
+
+.fa-tumblr-square:before {
+  content: "\f174"; }
+
+.fa-tv:before {
+  content: "\f26c"; }
+
+.fa-twitch:before {
+  content: "\f1e8"; }
+
+.fa-twitter:before {
+  content: "\f099"; }
+
+.fa-twitter-square:before {
+  content: "\f081"; }
+
+.fa-typo3:before {
+  content: "\f42b"; }
+
+.fa-uber:before {
+  content: "\f402"; }
+
+.fa-ubuntu:before {
+  content: "\f7df"; }
+
+.fa-uikit:before {
+  content: "\f403"; }
+
+.fa-umbrella:before {
+  content: "\f0e9"; }
+
+.fa-umbrella-beach:before {
+  content: "\f5ca"; }
+
+.fa-underline:before {
+  content: "\f0cd"; }
+
+.fa-undo:before {
+  content: "\f0e2"; }
+
+.fa-undo-alt:before {
+  content: "\f2ea"; }
+
+.fa-uniregistry:before {
+  content: "\f404"; }
+
+.fa-universal-access:before {
+  content: "\f29a"; }
+
+.fa-university:before {
+  content: "\f19c"; }
+
+.fa-unlink:before {
+  content: "\f127"; }
+
+.fa-unlock:before {
+  content: "\f09c"; }
+
+.fa-unlock-alt:before {
+  content: "\f13e"; }
+
+.fa-untappd:before {
+  content: "\f405"; }
+
+.fa-upload:before {
+  content: "\f093"; }
+
+.fa-ups:before {
+  content: "\f7e0"; }
+
+.fa-usb:before {
+  content: "\f287"; }
+
+.fa-user:before {
+  content: "\f007"; }
+
+.fa-user-alt:before {
+  content: "\f406"; }
+
+.fa-user-alt-slash:before {
+  content: "\f4fa"; }
+
+.fa-user-astronaut:before {
+  content: "\f4fb"; }
+
+.fa-user-check:before {
+  content: "\f4fc"; }
+
+.fa-user-circle:before {
+  content: "\f2bd"; }
+
+.fa-user-clock:before {
+  content: "\f4fd"; }
+
+.fa-user-cog:before {
+  content: "\f4fe"; }
+
+.fa-user-edit:before {
+  content: "\f4ff"; }
+
+.fa-user-friends:before {
+  content: "\f500"; }
+
+.fa-user-graduate:before {
+  content: "\f501"; }
+
+.fa-user-injured:before {
+  content: "\f728"; }
+
+.fa-user-lock:before {
+  content: "\f502"; }
+
+.fa-user-md:before {
+  content: "\f0f0"; }
+
+.fa-user-minus:before {
+  content: "\f503"; }
+
+.fa-user-ninja:before {
+  content: "\f504"; }
+
+.fa-user-nurse:before {
+  content: "\f82f"; }
+
+.fa-user-plus:before {
+  content: "\f234"; }
+
+.fa-user-secret:before {
+  content: "\f21b"; }
+
+.fa-user-shield:before {
+  content: "\f505"; }
+
+.fa-user-slash:before {
+  content: "\f506"; }
+
+.fa-user-tag:before {
+  content: "\f507"; }
+
+.fa-user-tie:before {
+  content: "\f508"; }
+
+.fa-user-times:before {
+  content: "\f235"; }
+
+.fa-users:before {
+  content: "\f0c0"; }
+
+.fa-users-cog:before {
+  content: "\f509"; }
+
+.fa-usps:before {
+  content: "\f7e1"; }
+
+.fa-ussunnah:before {
+  content: "\f407"; }
+
+.fa-utensil-spoon:before {
+  content: "\f2e5"; }
+
+.fa-utensils:before {
+  content: "\f2e7"; }
+
+.fa-vaadin:before {
+  content: "\f408"; }
+
+.fa-vector-square:before {
+  content: "\f5cb"; }
+
+.fa-venus:before {
+  content: "\f221"; }
+
+.fa-venus-double:before {
+  content: "\f226"; }
+
+.fa-venus-mars:before {
+  content: "\f228"; }
+
+.fa-viacoin:before {
+  content: "\f237"; }
+
+.fa-viadeo:before {
+  content: "\f2a9"; }
+
+.fa-viadeo-square:before {
+  content: "\f2aa"; }
+
+.fa-vial:before {
+  content: "\f492"; }
+
+.fa-vials:before {
+  content: "\f493"; }
+
+.fa-viber:before {
+  content: "\f409"; }
+
+.fa-video:before {
+  content: "\f03d"; }
+
+.fa-video-slash:before {
+  content: "\f4e2"; }
+
+.fa-vihara:before {
+  content: "\f6a7"; }
+
+.fa-vimeo:before {
+  content: "\f40a"; }
+
+.fa-vimeo-square:before {
+  content: "\f194"; }
+
+.fa-vimeo-v:before {
+  content: "\f27d"; }
+
+.fa-vine:before {
+  content: "\f1ca"; }
+
+.fa-vk:before {
+  content: "\f189"; }
+
+.fa-vnv:before {
+  content: "\f40b"; }
+
+.fa-voicemail:before {
+  content: "\f897"; }
+
+.fa-volleyball-ball:before {
+  content: "\f45f"; }
+
+.fa-volume-down:before {
+  content: "\f027"; }
+
+.fa-volume-mute:before {
+  content: "\f6a9"; }
+
+.fa-volume-off:before {
+  content: "\f026"; }
+
+.fa-volume-up:before {
+  content: "\f028"; }
+
+.fa-vote-yea:before {
+  content: "\f772"; }
+
+.fa-vr-cardboard:before {
+  content: "\f729"; }
+
+.fa-vuejs:before {
+  content: "\f41f"; }
+
+.fa-walking:before {
+  content: "\f554"; }
+
+.fa-wallet:before {
+  content: "\f555"; }
+
+.fa-warehouse:before {
+  content: "\f494"; }
+
+.fa-water:before {
+  content: "\f773"; }
+
+.fa-wave-square:before {
+  content: "\f83e"; }
+
+.fa-waze:before {
+  content: "\f83f"; }
+
+.fa-weebly:before {
+  content: "\f5cc"; }
+
+.fa-weibo:before {
+  content: "\f18a"; }
+
+.fa-weight:before {
+  content: "\f496"; }
+
+.fa-weight-hanging:before {
+  content: "\f5cd"; }
+
+.fa-weixin:before {
+  content: "\f1d7"; }
+
+.fa-whatsapp:before {
+  content: "\f232"; }
+
+.fa-whatsapp-square:before {
+  content: "\f40c"; }
+
+.fa-wheelchair:before {
+  content: "\f193"; }
+
+.fa-whmcs:before {
+  content: "\f40d"; }
+
+.fa-wifi:before {
+  content: "\f1eb"; }
+
+.fa-wikipedia-w:before {
+  content: "\f266"; }
+
+.fa-wind:before {
+  content: "\f72e"; }
+
+.fa-window-close:before {
+  content: "\f410"; }
+
+.fa-window-maximize:before {
+  content: "\f2d0"; }
+
+.fa-window-minimize:before {
+  content: "\f2d1"; }
+
+.fa-window-restore:before {
+  content: "\f2d2"; }
+
+.fa-windows:before {
+  content: "\f17a"; }
+
+.fa-wine-bottle:before {
+  content: "\f72f"; }
+
+.fa-wine-glass:before {
+  content: "\f4e3"; }
+
+.fa-wine-glass-alt:before {
+  content: "\f5ce"; }
+
+.fa-wix:before {
+  content: "\f5cf"; }
+
+.fa-wizards-of-the-coast:before {
+  content: "\f730"; }
+
+.fa-wolf-pack-battalion:before {
+  content: "\f514"; }
+
+.fa-won-sign:before {
+  content: "\f159"; }
+
+.fa-wordpress:before {
+  content: "\f19a"; }
+
+.fa-wordpress-simple:before {
+  content: "\f411"; }
+
+.fa-wpbeginner:before {
+  content: "\f297"; }
+
+.fa-wpexplorer:before {
+  content: "\f2de"; }
+
+.fa-wpforms:before {
+  content: "\f298"; }
+
+.fa-wpressr:before {
+  content: "\f3e4"; }
+
+.fa-wrench:before {
+  content: "\f0ad"; }
+
+.fa-x-ray:before {
+  content: "\f497"; }
+
+.fa-xbox:before {
+  content: "\f412"; }
+
+.fa-xing:before {
+  content: "\f168"; }
+
+.fa-xing-square:before {
+  content: "\f169"; }
+
+.fa-y-combinator:before {
+  content: "\f23b"; }
+
+.fa-yahoo:before {
+  content: "\f19e"; }
+
+.fa-yammer:before {
+  content: "\f840"; }
+
+.fa-yandex:before {
+  content: "\f413"; }
+
+.fa-yandex-international:before {
+  content: "\f414"; }
+
+.fa-yarn:before {
+  content: "\f7e3"; }
+
+.fa-yelp:before {
+  content: "\f1e9"; }
+
+.fa-yen-sign:before {
+  content: "\f157"; }
+
+.fa-yin-yang:before {
+  content: "\f6ad"; }
+
+.fa-yoast:before {
+  content: "\f2b1"; }
+
+.fa-youtube:before {
+  content: "\f167"; }
+
+.fa-youtube-square:before {
+  content: "\f431"; }
+
+.fa-zhihu:before {
+  content: "\f63f"; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400; }
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+    </style>
+    <style>
+        #stickybar {
+            left: 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: radial-gradient(circle at center center, rgb(129, 183, 26) 66%, rgb(255, 255, 255) 100%);
+            text-align: center;
+            z-index: 999999;
+        }
+
+        .closex {
+            margin: 5px 5px 0 0;
+            float: right;
+            width: 25px;
+            height: auto;
+        }
+
+        .closed {
+            display: none;
+        }
+
+        @media only screen and (max-width: 640px) {
+            .closex {
+                margin-top: -15px;
+            }
+
+            #stickybar img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="https://hop.clickbank.net/?affiliate=fixpain&vendor=hipflexors&tid=light9uyhf9usfb9jan23r" height="0"
+        width="0" style="display:none;visibility:hidden"></iframe>
+    <div id="section1" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center font-weight-bold"><span class="text-red">Discover Your Body’s Primal
+                            Muscle</span> That helps Reduce Pain, Promote Weight Loss, Enhance Your Strength Training
+                        <span class="text-orange">And Increase Energy when it’s relaxed</span>!</h1>
+                    <h2 class="text-center font-weight-strong">And learn how you can unlock its potential with a
+                        10-minute sequence of specially formulated movements.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section2" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="././assets/imgs/bar-graph-2-1-p1.png">
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="././assets/imgs/bar-graph-2-1-p2.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="font-italic">If you train hard and eat well, it should be enough to keep you in good
+                        health and physically and emotionally strong.</p>
+                    <p class="font-italic">Yet, there is a muscle in your body that you might not be aware of.</p>
+                    <p class="font-italic">It affects you, no matter how active or sedentary you are, or how old or
+                        young you are.</p>
+                    <p class="font-italic">And if it’s not kept in good condition, it can affect not only our bodies,
+                        but our entire well-being. In fact, I believe that many common health conditions are caused by
+                        this muscle not being stretched enough, strange as that sounds. What is it?</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid"
+                        src="./assets/imgs/bigstock-Sportsmen-fit-male-trainer-ma-88938824-1024x684.jpg">
+                </div>
+            </div>
+
+            <h2 class="text-center font-weight-bold oswald py-3">You might be surprised to learn…</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid shadow" src="./assets/imgs/hip-flexor-muscle-15.jpg">
+                </div>
+                <div class="col-md-8">
+                    <p>You see, our hip flexors are the engine through which our bodies move. They control balance, our
+                        ability to sit, stand, twist, reach, bend, walk and step.</p>
+                    <p>Everything goes through the hips.</p>
+                    <p>And when the hip flexors tighten it can lead to a host of problems, even in seemingly healthy and
+                        active individuals.</p>
+                    <p>Before I reveal how loads of people end up having tight hip flexors yet never realize it, let me
+                        introduce myself.</p>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-9">
+                    <p>My name is Mike Westerdal and I'm a national best-selling fitness author, sports nutrition
+                        specialist, personal trainer, Iron Man magazine contributor and founder of the popular strength
+                        training site, CriticalBench.com</p>
+                    <p>In a moment, I'll reveal to you a systematic, <strong>step-by-step program designed to loosen
+                            your hip flexors</strong> and unlock the hidden power in your body.</p>
+                    <p>But first, let me explain just how deep-rooted the problem is.</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./assets/imgs/mike-westerdal-coach-15.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section4" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="featured">
+                        <h2 class="font-weight-bold oswald pb-3">HOW TIGHT HIPS CAN HOLD YOU BACK…</h2>
+                        <p>Many people don’t realize that the root cause of some of their pain and other health problems
+                            might be tight hip flexors.</p>
+                        <p>The impact the hips have on the whole body never occurred to me until I saw the effect tight
+                            hip flexors had on the health and well-being of my wife after she gave birth.</p>
+                        <p>It was only then that I truly understood the magnitude of the problem.</p>
+                        <p>Tight or locked hip flexors can contribute to the following problems:</p>
+
+                        <ul>
+                            <li>Nagging joint pain in the legs, lower back or hips [19-26][29]</li>
+                            <li>Walking with discomfort [19-27][29]</li>
+                            <li>Hips locking up [29]</li>
+                            <li>Bad posture [27]</li>
+                            <li>Trouble sleeping [30]</li>
+                            <li>Sluggishness in day to day life [31]</li>
+                            <li>High anxiety [32]</li>
+                            <li>Lack of explosiveness in the gym or sports [33][49-54] </li>
+                        </ul>
+
+                        <p>Do you find it surprising that all of this might be simply caused by this one tight muscle?
+                        </p>
+                        <p>Many people suffer from tight or locked hip flexors, especially those who sit for hours each
+                            day, but few realize the impact on your whole body.</p>
+                        <p>Again, everything flows through the hips.</p>
+                        <p>They help to support the strength and health of your entire body.</p>
+                        <p>AND AT THE VERY HEART OF THIS IS THAT POWERFUL SURVIVAL MUSCLE – HIP FLEXORS</p>
+
+                        <h3 class="font-weight-bold"><span class="bg-yellow text-black">HIP FLEXORS ARE THE BODY'S <span
+                                    class="text-purple">MOST POWERFUL</span>, PRIMAL MUSCLE…</span> THAT YOU'VE NEVER
+                            TRAINED</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section5" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center oswald text-white font-weight-bold pb-3">INTRODUCING THE BODY'S MOST
+                        POWERFUL,<br>
+                        PRIMAL MUSCLE… THAT YOU'VE NEVER HEARD OF<br>
+                        <span class="just-another-hand">(Let Alone Trained!)</span>
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Your hips are the bridge between your upper body and lower body. They are at the center
+                                of your body's movement.</p>
+                            <p>Sitting within the well of your hip and lower spine is the psoas major muscle, one of the
+                                two muscles that makes up the iliopsoas.</p>
+                            <p>It’s often called the "mighty" psoas (pronounced so-az) for the many important functions
+                                it plays in the movement of your body.</p>
+                            <p><span class="text-orange"><strong>The psoas is the only muscle in the human body
+                                        connecting the upper body to the lower body.</strong></span></p>
+                            <p>The muscle attaches to the vertebrae of the lower spine, moves through the pelvis and
+                                connects to a tendon at the top of the femur.<strong>It also attaches to the diaphragm,
+                                    so it’s connected to your breathing, and upon it sits major organs.</strong></p>
+                            <p>A properly functioning psoas muscle creates a neutral pelvic alignment, stabilizes the
+                                hips, supports the lower spine and abdomen, supports the organs in the pelvic and
+                                abdominal cavity and it is what gives you <strong><span class="text-orange">great
+                                        mobility and core strength</span>.</strong></p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="./assets/imgs/psoas.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>When it functions well, it has the power to ….</p>
+
+                            <ul style="list-style-type:none;">
+                                <li>… Help the body metabolize (burn) fat. [34-36]</li>
+                                <li>… Help improve athletic performance. [49-54]</li>
+                                <li>… Help improve strength training and endurance. [27][44-45][49-54]</li>
+                                <li>… Help improve energy levels. [31]</li>
+                                <li>… Help you sleep more comfortably and soundly through the night. [30]</li>
+                            </ul>
+
+                            <p>Put simply, this muscle is the core of activity in your body. So, when it's out of
+                                balance or if the psoas tightens, serious consequences can flow throughout the body.</p>
+                            <p>And there's one activity, in particular, that's the sworn enemy of your psoas muscle…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section6" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center oswald font-weight-bold pb-3">THE ACTIVITY THAT makes us <span
+                            class="text-red">WEAKER and heavier</span></h2>
+
+                    <div class="row">
+                        <div class="col-md-5 px-5">
+                            <img class="img-fluid rotate-5 shadow mt-4" src="./assets/imgs/sitting.jpg">
+                        </div>
+                        <div class="col-md-7">
+                            <p>It may be the most harmless activity known to man, but can lead to a wide variety of
+                                issues.</p>
+                            <img class="img-fluid mx-auto d-block py-3" src="./assets/imgs/sitting-crossed-out.gif">
+                            <p>Even if you're the most active of athletes, you may still suffer from a tight psoas due
+                                to the amount of time you spend each day planted to a chair.</p>
+                            <p>Weakness, shortening and tightness develops in the muscle from sitting for extended
+                                periods of time, contributing to poor sleep, posture and even stress and tension.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="featured">
+                        <h3 class="text-center text-red font-weight-bold pb-3">HERE ARE 3 WAYS THAT SITTING CAN HURT
+                            PHYSICAL AND EMOTIONAL HEALTH:</h3>
+                        <h2 class="text-center font-weight-bold">BULGING BELLY SYNDROME</h2>
+
+                        <div class="row pb-3">
+                            <div class="col-md-5">
+                                <img class="img-fluid" src="./assets/imgs/bulging-belly-curved-spine.jpg">
+                            </div>
+                            <div class="col-md-7 pl-4 align-self-center">
+                                <p><strong>My clients sometimes wonder why their stomachs stick out, even though they’re
+                                        hammering the core exercises every day.</strong> It's a common myth that bulging
+                                    belly is due to weak abdominal muscles. The real cause is likely to be tight psoas
+                                    muscles, which cause the lower back to curve, pushing out the stomach. When the
+                                    psoas works properly, it pulls the abdomen back, tucking the tummy in, adding to the
+                                    appearance of a strong, flat stomach.</p>
+                            </div>
+                        </div>
+
+                        <h2 class="text-center font-weight-bold">FAT LOSS INHIBITOR</h2>
+
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="img-fluid" src="./assets/imgs/stress-response.jpg">
+                            </div>
+                            <div class="col-md-7 pl-4 align-self-center">
+                                <p>As the body's "fight or flight" muscle, your psoas is deeply connected to our natural
+                                    survival instinct. It instantly tightens in moments of danger to either protect you
+                                    (in a fetal position) or help you run, fueled by the release of adrenaline. However,
+                                    with your psoas constantly tight, <strong>it’s as though you are in constant danger.
+                                    </strong>When your body is stressed, it often switches into fat storing mode in
+                                    anticipation of danger. [34-36] So, if fat loss is an issue for you, tight hips
+                                    might be to blame.</p>
+                            </div>
+                        </div>
+
+                        <h2 class="text-center font-weight-bold">UNCOMFORTABLE SLEEP</h2>
+
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="img-fluid"
+                                    src="./assets/imgs/bigstock-Businessman-working-with-lapto-93207974.jpg">
+                            </div>
+                            <div class="col-md-7 pl-4 align-self-center">
+                                <p>Sitting all day causes your hips to become stuck in a forward thrust position. This
+                                    leads to pulling on the lower back and decreased blood flow and circulation through
+                                    the hips. This tightness results in physical discomfort, making it more difficult to
+                                    fall asleep and more likely to wake up throughout the night. [30]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="text-center text-red font-weight-bold px-3 pt-4">SITTING FOR LONG HOURS MAY LEAD TO
+                        HEALTH HAZARDS BECAUSE IT CAN TIGHTEN YOUR PSOAS MUSCLE.</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section7" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-4">
+                    <div class="featured">
+                        <h2 class="font-weight-bold oswald pb-3">WHY TIGHT HIP FLEXORS CAN LEAD TO HERNIATED LUMBAR
+                            DISCS:</h2>
+                        <p>People who spend most of each day sitting, are at greater risk for tightening the psoas
+                            muscles, which then pulls the upper lumbar spine forward.</p>
+                        <p>As a result, the upper body misaligns and rests on the ischial tuberosity (sitting bones)
+                            rather than being properly distributed along the arch of the spine.</p>
+                        <p class="font-weight-bold"><span class="text-red">But here’s the great news…</span></p>
+                        <p>You can do something about it!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section8" class="container-fluid">
+        <div class="container">
+
+            <h1 class="text-center oswald text-white font-weight-bold pb-3">WHY STATIC STRETCHING ALONE ISN'T THE ANSWER
+            </h1>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <img class="img-fluid" src="./assets/imgs/static-stretching.jpg">
+                </div>
+                <div class="col-md-5">
+                    <p>Knowing you have tight hip flexors is one thing.</p>
+                    <p>Knowing how to fix your tight hip flexors is another challenge altogether.</p>
+                    <p>If you trust so-called experts on YouTube and online, they'll have you believe it's simply a case
+                        of holding a few static stretches for a period of time to try and lengthen the muscle.</p>
+                    <p>Or rolling around with a tennis ball stuck to your hip (as if that will really make any
+                        difference).</p>
+                    <p>It takes more than a tennis ball and foam roller to unlock your hip flexors…and doing it wrong
+                        could cause damage.</p>
+                    <p>The reason few people manage to fix their hip flexors is simple.</p>
+                    <p class="text-orange font-weight-bold">It's really a hard area to reach.</p>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-7">
+                    <p>Your psoas is buried deep inside your core, making it tough to access. It's a hard muscle to
+                        find, let alone train.</p>
+                    <p>So it's little wonder why trying to loosen it requires more than a simple static hip flexor
+                        stretch.</p>
+                    <p>If you’ve found you're spending (or wasting) time stretching this way only to find it's having
+                        minimal effect, that is why.</p>
+                    <p>That's because you need to attack the muscle from a variety of angles using a variety of exercise
+                        techniques and modalities in order to "unpack" the muscle in the right way.</p>
+                    <p>The truth is, you can learn to release your tight hip flexors on your own.</p>
+                    <p>You can think of your psoas as a combination safe lock, there are certain exercise combinations
+                        that will unlock it. You just need to know the code. [38-45]</p>
+                    <p>And, there are a number of specific movements beyond simple static stretching you can use to
+                        unlock and loosen your hips, legs and back.</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="polaroid">
+                        <img class="img-fluid" src="./assets/imgs/hip-flexor-exercise.jpg">
+                        <p>Static Stretching Has Its Place - But You Need To Attack Your Hips With A Variety Of
+                            Movements Including The Ones Below</p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="just-another-hand py-3">Some of these include:</h1>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/imgs/pnf-stretching.jpg">
+                    <p class="font-weight-bold pt-4">PNF STRETCHING:</p>
+                    <p>PNF is an acronym for proprioceptive neuromuscular facilitation. It is a technique where you are
+                        activating a specific muscle in order to relax the muscles around a joint so you can decrease
+                        the stiffness around a joint.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/imgs/dynamic-stretching.jpg">
+                    <p class="font-weight-bold pt-4">DYNAMIC STRETCHING:</p>
+                    <p>This is where you are activating the muscle around a joint and moving that joint through its full
+                        range of motion in a progressive manner. This leads to an increased range of motion around the
+                        joint, warming up of the muscle around the joint and improved circulation around the joint.
+                        Think of high knees or butt kicks.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/imgs/core-stability.jpg">
+                    <p class="font-weight-bold pt-4">3-DIMENSIONAL CORE STABILITY EXERCISES:</p>
+                    <p>With these exercises we are targeting the muscle in all planes of movement so the core and
+                        abdominal muscles have good activation, endurance and strength in all planes of movement which
+                        leads to a decrease in unnecessary damaging stress on joints.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/imgs/mobility.jpg">
+                    <p class="font-weight-bold pt-4">MOBILITY EXERCISES:</p>
+                    <p>In these exercises, we are targeting the joint and doing movements and exercises that help the
+                        joint function optimally. This allows a joint to move more freely.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/imgs/fascia.jpg">
+                    <p class="font-weight-bold pt-4">FASCIA STRETCHING:</p>
+                    <p>In this unique technique, we are targeting the tissue that muscles are surrounded in and working
+                        on loosening and lengthening the fascia. Few people understand the negative effect this tissue
+                        can have on your body.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/imgs/muscle-activation.jpg">
+                    <p class="font-weight-bold pt-4">MUSCLE ACTIVATION MOVEMENTS:</p>
+                    <p>Due to all of our sitting and daily technology use, many of our muscles are not working properly.
+                        With this technique, we're targeting those muscles that are off and activating them in order to
+                        help the body move more efficiently.</p>
+                </div>
+            </div>
+
+            <p>Now that you know the specific techniques you need to unlock your hip flexors, the next question is how
+                to combine these in the most effective way. Please don't be overwhelmed by the "Shop Talk" above
+                because…</p>
+
+        </div>
+    </div>
+
+    <div id="section9" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center oswald font-weight-bold pb-3">LOOSENING YOUR HIP FLEXORS CAN ACTUALLY BE
+                        EASY<br>
+                        WITH THE <span class="text-red">SEQUENTIAL FLOW METHOD</span></h2>
+
+                    <p>Like unfolding a sheet or unpacking a parcel, opening up the muscles in your hips should be done
+                        in the right order. [38]</p>
+                    <p>Slowly releasing one muscle before another to avoid injury and increasing hip tightness.</p>
+                    <p>It's why so many people give up trying to fix the problem themselves and believe incorrectly that
+                        they have to live with the problem. But hoping the problem will go away by not exercising is
+                        just as damaging.</p>
+                    <p>To explain in more detail about this flow, let me introduce you to leading Kinesiologist and
+                        Injury Specialist, Rick Kaselj, MS.</p>
+                    <p>Rick is "THE GUY" fitness professionals go to when they want to learn about the latest techniques
+                        to help their own clients. He's given over 352 live presentations to more than 8,152 health
+                        professionals in the US and Canada.</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid shadow" src="./assets/imgs/featured1-1.png">
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid shadow" src="./assets/imgs/featured2.png">
+                        </div>
+                    </div>
+
+                    <p class="pt-4">I first met Rick when he helped me fix a shoulder problem. He was one of the few
+                        injury specialists I met who helped athletes by focusing on getting them back to training,
+                        rather than avoiding workouts.</p>
+                    <p>Rick showed me what so many other injury specialists hadn't - how to work through the right
+                        sequence of techniques to unlock the tension and tightness in my muscles to properly solve the
+                        problem.</p>
+                    <p>He's the guy I turned to when my wife, Courtney, was struggling with pain and discomfort in her
+                        hips after the birth of our son Lincoln.</p>
+
+                    <div class="row">
+                        <div class="col-md-7">
+
+                            <p>In the days and months following the birth, she experienced pain in her legs and
+                                discomfort when walking and sitting. She was struggling to sleep.</p>
+                            <p>In just 15 minutes working with Rick, he successfully unlocked her hip flexors so she no
+                                longer felt any pain or discomfort that day. She was able to walk without experiencing
+                                the nagging pain in her pelvic area. She could sleep better and could start enjoying
+                                those precious days with our little one at home.</p>
+                            <p>But Rick's "flow" technique doesn’t only help those in pain.</p>
+                            <p>At Critical Bench, our Head Strength Coach Chris Wilson felt his hip flexors were a
+                                little tight (from sitting and answering training questions on Facebook too much) and
+                                tried the same routine Rick had used with my wife. Within days, Chris successfully
+                                increased his deadlift by 35 pounds to finally hit that 500 pound pull he had been
+                                training for. All because he got to experience the sequential flow of movements that
+                                Rick developed to release his hip flexors.</p>
+                        </div>
+                        <div class="col-md-5 px-5">
+                            <img class="img-fluid rotate-5 shadow mt-4" src="./assets/imgs/Courtney.jpg">
+                        </div>
+                    </div>
+                    <p>It’s not just about the exercises.</p>
+
+                    <div class="highlight my-4">
+                        <h2 class="text-center text-red oswald">THE POWER OF RICK'S TECHNIQUE LIES NOT ONLY IN WHAT
+                            TECHNIQUES ARE PERFORMED AND HOW WELL, BUT IN DOING THESE IN A CERTAIN SEQUENCE.</h2>
+                        <h2 class="text-center font-weight-bold oswald">DONE EFFECTIVELY, THE SEQUENTIAL FLOW WORKS WITH
+                            YOUR BODY TO HELP RELIEVE CHRONIC PAIN, IMPROVE FLEXIBILITY, AND INCREASE STRENGTH AND
+                            VITALITY. <sup>[38-45]</sup></h2>
+                    </div>
+
+                    <p>In my experience, doing this specific sequence that Rick developed has worked better than any
+                        other sequence I’ve tried. Rick’s special set of sequential stretches has been designed to relax
+                        your muscles in the RIGHT order. And while many of the techniques were ones I already knew, I
+                        found that the right sequence can help <strong>loosen tissues including muscle, fascia,
+                            connective tissue, and the joint capsule, while aiding in breaking up scar tissue.</strong>
+                    </p>
+                    <p>I've seen, with my own eyes, the power of Rick's techniques on my wife and our Head Strength
+                        Coach Chris Wilson.</p>
+                    <p>That's why I asked Rick to share with you the very same program so you too can help unlock your
+                        hip flexors and gain all the benefits.</p>
+
+                    <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section10" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="font-weight-bold oswald text-center pb-3">INTRODUCING "UNLOCK YOUR HIP FLEXORS"</h1>
+                    <h3 class="text-gold text-center oswald px-4">UNLOCK YOUR HIP FLEXORS GIVES YOU A PRACTICAL,
+                        EASY-TO-FOLLOW
+                        PROGRAM YOU CAN USE TODAY TO RELEASE YOUR HIP FLEXORS
+                        FOR MORE STRENGTH, BETTER HEALTH AND ALL DAY ENERGY. <sup>[27][31][44-45]</sup></h3>
+
+                    <p class="text-center">Working with Rick, we've created a great program that is quite simply
+                        Done-For-You.</p>
+                    <img class="img-fluid mx-auto d-block" src="./assets/imgs/Unlock-Your-Hip-Flexors.jpg">
+                    <p>Rick has pulled together a "sequential flow" composed of 10 carefully selected exercises,
+                        including PNF Stretching, Static Stretching, Dynamic Stretching, 3-Dimensional Core Stability
+                        Exercises, Mobility Exercises, Fascia Stretching and Muscle Activation.</p>
+
+                    <div class="featured">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="font-weight-bold text-gold">UNLOCK YOUR HIP FLEXORS DVD VIDEO</h4>
+                                <p>We've shot these 10 exercises with explanations from Rick on perfect form and exactly
+                                    how to target that hard-to-reach psoas muscle. The video content is split in two:
+                                <p>The first is a Coaching Instructional Video where Rick takes you in detail through
+                                    each exercise, so you fully understand why you're doing that exercise, the best form
+                                    to take and how it should feel. The second video is a Follow Along format designed
+                                    so you can perform the flow alongside the video without breaking for explanation.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/Unlock-Your-Hip-Flexors-DVD.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="font-weight-bold text-gold">UNLOCK YOUR HIP FLEXORS DIGITAL MANUAL</h4>
+                                <p>You'll get access to a highly targeted digital manual with greater depth about the
+                                    psoas muscle and the effects of its tightening on your health and well-being. It
+                                    also includes detailed descriptions of the exact exercise movements with pictures.
+                                </p>
+                                <p>Learning how to do this properly gives you the tools you need to start undoing some
+                                    of the damage done to your psoas and start helping the body to naturally heal
+                                    itself.</p>
+                                <p>But first a warning…this isn't for everyone. You have to be committed.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/Unlock-Your-Hip-Flexors-Manual.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>As you can imagine, this is a hugely technical field. The last thing we wanted was to overload
+                        you with too much, so we've done our best to distill the program to the most essential elements
+                        so you can experience rapid results.</p>
+                    <p>This is an easy-to-follow program that you can incorporate into your daily workout or routine.
+                    </p>
+                    <p>And because I want you to give this awesome program a try today, I have an incredible offer for
+                        you…</p>
+
+                    <h2 class="font-weight-bold text-center oswald">ORDER TODAY AND YOU'LL RECEIVE<br>
+                        THESE TWO POWERFUL DIGITAL BONUSES</h2>
+
+                    <img class="img-fluid mx-auto d-block pb-4" src="./assets/imgs/plus.gif">
+
+                    <div class="featured">
+                        <h3 class="font-weight-bold text-red">DIGITAL BONUS 1</h3>
+                        <h4 class="font-weight-bold text-gold">Unlock Your Tight Hamstrings<br>
+                            <em>"The Key To A Healthy Back And Perfect Posture"</em>
+                        </h4>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p>First and foremost, if the muscles of the hamstrings are tight, they are more
+                                    susceptible to tearing. No matter if you're an elite athlete, stay-at-home mom or
+                                    average Joe, a muscle tear in the back of your legs can take months to heal and
+                                    recover from, making life very challenging..</p>
+                                <p>In today's world, most people make a living from a seated position along with sitting
+                                    in their car and while at home.</p>
+                            </div>
+                            <div class="col-md-8">
+                                <img class="img-fluid" src="./assets/imgs/Unlock-Your-Hamstrings-Bonus-Set.jpg">
+                            </div>
+                        </div>
+                        <p>All of that sitting over time increases tightness in the hamstrings. Having tight hamstrings
+                            causes the hips and pelvis to rotate back which flattens the lower back and causing lower
+                            back pain and poor posture.</p>
+                        <p>In a perfect world, everyone would get regular sports massage to help improve the muscle
+                            tissue quality of the hamstrings by increasing blood flow. Unfortunately for most of us,
+                            that isn't always possible.</p>
+                        <p>However, there is something all people can do by themselves which takes only minutes per day
+                            to help improve muscle condition and loosen up those tight hamstrings.</p>
+                        <p>This super effective routine helps to reduce the likelihood of injury, improves performance,
+                            corrects posture and can also alleviate pain in the lower back. [19-26][29][49-54]</p>
+                    </div>
+
+                    <div class="featured">
+                        <h3 class="font-weight-bold text-red">DIGITAL BONUS 2</h3>
+                        <h4 class="font-weight-bold text-gold">The 7-Day Anti-Inflammatory Diet<br>
+                            <em>"Automatically Heal Your Body With The Right Foods"</em>
+                        </h4>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>The Unlock Your Hip Flexors program is designed to bring you all the benefits of
+                                    looser hip flexors with greater strength, power and flexibility.</p>
+                                <p>But its benefits are multiplied when combined with a holistic diet to naturally
+                                    alleviate pains, aches, soreness and stiffness by tackling inflammation caused by
+                                    injury or environmental toxins in our food and water.</p>
+                                <p>Your diet is one of the major causes of inflammatory responses leading to health
+                                    deterioration.</p>
+                                <p>Now, you can help improve your body's response to inflammation by choosing the right
+                                    foods that work with your body to stimulate its natural healing abilities.</p>
+                                <p>The 7-Day Anti-Inflammatory Diet is a Done-For-You nutrition program featuring diet
+                                    recommendations, meal plans, shopping lists and supplement tips to help your body
+                                    automatically heal itself.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="./assets/imgs/7-Day-Anti-Inflammatory-Bonus.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured">
+                        <h3 class="font-weight-bold text-red">DIGITAL BONUS 3</h3>
+                        <h4 class="font-weight-bold text-gold">Insider Access to the Unlock Your Body Inner Circle
+                            Community</h4>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Get direct access to Coach Rick, the creator of Unlock Your Hip Flexors. You'll also
+                                    gain instant access to a private Facebook group, supplement reviews, expert coaching
+                                    calls, monthly workouts & health challenges plus much more. Included in this Unlock
+                                    Your Hip Flexors offer is the Before Bed Mobility Flow which you get to enjoy at a
+                                    minimal fee and a 14 Days FREE access to the Unlock Your Body Inner Circle. After
+                                    your special 14 day trial, membership is just $67.31/mo. You may cancel at any time
+                                    with no questions asked.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid"
+                                    src="./assets/imgs/unlock-body-screens-cta.jpg">
+                            </div>
+                        </div>
+                        <p>The Unlock Your Body Inner Circle is a community of people, just like you, who share their
+                            successes and support one another on the journey to transforming their health and body. It's
+                            an incredible place where women and men who are committed to changing their health & fitness
+                            support and help one another.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section11" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center oswald font-weight-bold pb-3">INSIDE THE UNLOCK YOUR HIP FLEXORS<br>
+                        PROGRAM, YOU'LL DISCOVER:</h2>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid shadow" src="./assets/imgs/posture.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <ul>
+                                <li>Exactly how to target those hard-to-reach muscles with detailed, step-by-step
+                                    walk-through videos of every single Key Move (Rick's simple, clear demonstration of
+                                    these powerful moves will help them become second nature in no time).</li>
+                                <li><strong>Why your hips are vital for maintaining correct posture and help promote
+                                        peak performance.</strong></li>
+                                <li>The true impact of your body's “Mighty Muscle” and how it really affects physical,
+                                    emotional and spiritual well-being (you'll be amazed at how big an impact this can
+                                    have on everyday life).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4">
+                        <div class="col-md-4">
+                            <img class="img-fluid shadow" src="./assets/imgs/bigstock-Man-Running-2878187.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <ul>
+                                <li>How overall health can be compromised by tight hip flexors, and how to loosen them
+                                    up to see faster fat loss and increased energy.</li>
+                                <li><strong>The main causes for the psoas muscle to change structure, a major warning
+                                        sign for your body (any change, however minimal, has an overwhelming impact that
+                                        ripples across your body causing other muscle groups to compensate).</strong>
+                                </li>
+                                <li>Why we're just as likely to be affected by this problem if you're a
+                                    balls-to-the-wall gym rat training 24/7 or a couch potato.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4">
+                        <div class="col-md-4">
+                            <img class="img-fluid shadow" src="./assets/imgs/sitting-at-desk.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <ul>
+                                <li>Why tight hip flexors are exasperated if you have a desk job or drive a car for long
+                                    periods of time.</li>
+                                <li><strong>The reason intense core workouts could be doing more harm than good if you
+                                        haven't loosened up your hips first.</strong></li>
+                                <li>Why strong legs and glutes are important to your overall heath and why you need to
+                                    prevent too much flexion of your hips.</li>
+                                <li><strong>How trauma, injury and stress can build up within your posture and how it
+                                        can ultimately affect your psychological state.</strong></li>
+                                <li>Why the "cure" isn't simply to stop sitting (you need to be more pro-active in
+                                    targeting the muscles affected to undo the damage from sitting all day).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4 pb-5">
+                        <div class="col-md-4">
+                            <img class="img-fluid shadow" src="./assets/imgs/football-athlete.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <ul>
+                                <li>Why "comfort" and "support" are the enemies of our natural physiology and how we can
+                                    start to move back towards our natural posture (forget pillows, support cushions and
+                                    belts.)</li>
+                                <li><strong>The 2 situations you NEED to be aware of when training your glutes to ensure
+                                        they're properly activated for maximum athletic performance.</strong></li>
+                                <li>Why relaxing your psoas muscle can help clear your mind, re-energize your thinking
+                                    and relieve stress.</li>
+                                <li><strong>Plus much, <em><u>much</u></em> more…</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h1 class="font-weight-bold text-center oswald pt-5">What are you waiting for? Now, you can
+                        <u><em>finally</em></u> Unlock Your Hip Flexors with this incredible, easy to follow DVD!</h1>
+                    <h2 class="font-weight-bold text-center oswald text-red">CLAIM YOUR COPY WITH FREE BONUSES NOW</h2>
+
+                    <img class="img-fluid mx-auto d-block" src="./assets/imgs/System-grouping-dbonus.jpg">
+
+                    <div class="bestseller shadow mt-3">
+                        <h2 class="header text-center">BEST SELLER</h2>
+
+                        <div class="content text-center">
+                            <h3 class="font-weight-bold pb-3">Physical DVD Shipped + Instant Access to the Digital
+                                Versions + FREE BONUSES!</h3>
+                            <p>Get a <strong><u>physical copy of the DVD</u></strong> of <em>Unlock Your Hip
+                                    Flexors</em> shipped <strong>directly to your home...</strong></p>
+                            <p>...PLUS instantly download the digital versions and bonuses <u><b>absolutely
+                                        FREE!</b></u></p>
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/uyhf-physicaldigital.png">
+
+                            <h2 class="font-weight-bold oswald text-red pb-3">Your Discounted Price: <s
+                                    class="text-black">$30</s> $20
+                                <br><span class="text-black font-weight-bold">+7.95 S&H</span>
+                            </h2>
+
+                            <a href="./checkoutTemplate/checkout.html"
+                                class="btn-add-cart"><img class="mx-auto d-block" src="./assets/imgs/add-to-cart.png"></a>
+
+                            <p class="pt-3">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3visa.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3mastercard.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3amex.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3discover.png">
+                            </p>
+
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee_2.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section12" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="font-weight-bold oswald text-center pb-3">WHAT OTHERS ARE SAYING ABOUT<br>
+                        UNLOCK YOUR HIP FLEXORS</h2>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Stronger & Faster Than Ever</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/Frank-Daniels.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-italic">"Being an athlete all my life and having endured multiple knee
+                                    surgeries due to blowing out ACL's in both knees, I later started to develop a hip
+                                    issue in my right hip due to the years of wear and tear. It actually got so bad it
+                                    was hard for me to perform as an athlete as well as be a productive coach for my
+                                    clients.</p>
+                                <p class="text-italic">After getting an MRI to have it checked out, I realized I had a
+                                    degenerative arthritic condition in the hip that is not reversible. Surgery was not
+                                    an option I wanted to go through so I contacted Rick Kaselj to see if he had
+                                    something for me. When I started to apply the strategies from Unlock Your Hip
+                                    Flexors it helped me re-balance my pelvis and hip joint to where I couldn't even
+                                    tell I had an issue anymore.</p>
+                            </div>
+                        </div>
+                        <p class="text-italic">These days I'm stronger and faster than ever and still competing in
+                            sports. Rick gave me the ability to perform at my highest level as a coach and regain the
+                            athletic ability I had lost over the years from wear and tear. I've been using Rick's
+                            strategies for years to help myself manage and recover from injuries as well as countless
+                            members of the fitness community. I couldn't recommend this product enough!"</p>
+                        <p><b>Frank Daniels, CPT</b><br>
+                            Fitness+Performance Specialist<br>
+                            White Plains, NY</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">You Need Flexible Hips to Live a Long Healthy Life</h4>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="text-italic">"I have known Rick Kaselj since college. Since then I have gone
+                                    to Chiropractic college and become a Diplomate of the International College of
+                                    Applied Kinesiology and a Diplomate in Clinical Nutrition. As a result I have come
+                                    to some important conclusions about how the body works. Hip flexibility, mobility
+                                    and strength is one of the most important things you can do to keep your overall
+                                    body healthy. The way we moved thousands of years ago is our natural state, which
+                                    requires flexible and mobile hips.</p>
+                                <p class="text-italic">I was excited to hear about Rick Kaselj’s Unlock Your Hip Flexors
+                                    program and have read the manual and watched the videos. I was very impressed with
+                                    the content. I implemented the concepts and program into my practice with my
+                                    clients.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/Dr-Alan-Jenks.jpg">
+                            </div>
+                        </div>
+                        <p class="text-italic">TRick has developed a comprehensive system to unlock your hips and
+                            restore movement the way it should be. Everyone could benefit from Unlock Your Hip Flexors.
+                            The two most important things to live a long healthy life are good quality whole foods and
+                            great movement, which requires great hip mobility. I cannot recommend this program enough."
+                        </p>
+                        <p><b>Dr. Alan Jenks DC DIBAK DABCN</b><br>
+                            The Hague Area, Netherlands<br>
+                            AlanJenks.com</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Helped Me Deadlift 500 Pounds</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/chris.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-italic">"What if I told you that you could increase your deadlift by 35
+                                    pounds in a week? You'd think I was nuts, but that's exactly what I experienced.
+                                    Rick Kaselj worked with me personally to help me loosen my hip flexors and the
+                                    explosiveness that was unlocked help me finally hit that 500 lb pull I've been
+                                    training for.</p>
+                                <p class="text-italic">If you do any kind of explosive lifting, Unlock Your Hip Flexors
+                                    can definitely help you add pounds to your max!"</p>
+                            </div>
+                        </div>
+                        <p><b>Chris Wilson, SNC, RKC, CPT</b><br>
+                            Head Strength Coach, Critical Bench</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section13" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="highlight">
+                        <h2 class="text-center oswald font-weight-bold pb-4">ENJOY LOOSER HIPS, GREATER STRENGTH<br>
+                            AND MORE POWER…<br>
+                            <span class="text-red">OR YOU GET YOUR MONEY BACK, GUARANTEED!</span>
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Because so many people sit for long hours each day, many suffer from tight hip
+                                    flexors and can benefit from this powerful program.</p>
+                                <p>That's why I want to make this a no-brainer for you with a 100% risk-free money back
+                                    guarantee.</p>
+                                <p>For the next 60 days, try using the simple techniques demonstrated by Rick either on
+                                    your own or incorporated into your daily workout.</p>
+                                <p>I'm confident you’ll be delighted with the results, but if you’re not, simply email
+                                    us and ask for a prompt and hassle-free, no questions asked 100% refund.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee-seal.jpg">
+                            </div>
+                        </div>
+
+                        <p>In fact, if you're not happy for ANY reason, I insist you ask for a refund and we’ll be more
+                            than happy to give you all your money back.</p>
+                        <p>After seeing the effect of the program for myself and those close to me, I’m sure you'll be
+                            amazed at how quickly you feel the benefits of looser hips and greater strength and
+                            vitality.</p>
+                    </div>
+
+                    <h2 class="text-center oswald font-weight-bold py-4">WHAT PRICE WOULD YOU PAY TO<br>
+                        BE THE STRONGEST THAT YOU CAN BE?</h2>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/your-turn.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <p>Now you've seen the benefits of taking action and the hidden dangers of carrying on as
+                                normal and you can see the power of the Unlock Your Hip Flexors program.</p>
+                            <p>It still stuns me to see so many people working hard in the gym and carrying on as
+                                normal. They struggle to understand why they still feel pain, why they have low energy,
+                                and why their body isn’t responding properly.</p>
+                            <p><span style="font-weight: 400;">It comes back to their hips. But that doesn’t have to be
+                                    a problem for you anymore. There is an effective and affordable solution that you
+                                    can begin implementing as soon as today to relieve pain, increase your energy, and
+                                    improve your strength and endurance – the Unlock Your Hip Flexors program.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="ten-price">Purchase Unlock Your Hip Flexors today, and pay <u>just $20</u> instead of the
+                        regular price of $30.</p>
+                    <p>You'll receive the DVD with Rick's detailed demonstrations and walk through videos plus instant
+                        access to the digital versions and the two powerful digital bonuses (valued at $48 alone).</p>
+                    <p>And that's less than you’ll pay for a book that <u>doesn't</u> have the walk-throughs or the
+                        essential video demonstration necessary to ensure your sequential flow is done <u>properly</u>.
+                    </p>
+                    <p>Remember, if you wanted a consultation with Rick, it would cost you more than $300 an hour to
+                        learn from him the level of expertise he shares in Unlock Your Hip Flexors.</p>
+
+                    <div class="bestseller shadow my-5">
+                        <h2 class="header text-center">BEST SELLER</h2>
+
+                        <div class="content text-center">
+                            <h3 class="font-weight-bold pb-3">Physical DVD Shipped + Instant Access to the Digital
+                                Versions + FREE BONUSES!</h3>
+                            <p>Get a <strong><u>physical copy of the DVD</u></strong> of <em>Unlock Your Hip
+                                    Flexors</em> shipped <strong>directly to your home...</strong></p>
+                            <p>...PLUS instantly download the digital versions and bonuses <u><b>absolutely
+                                        FREE!</b></u></p>
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/uyhf-physicaldigital.png">
+
+                            <h2 class="font-weight-bold oswald text-red pb-3">Your Discounted Price: <s
+                                    class="text-black">$30</s> $20
+                                <br><span class="text-black font-weight-bold">+7.95 S&H</span>
+                            </h2>
+
+                            <a href="./checkoutTemplate/checkout.html"
+                                class="btn-add-cart"><img class="mx-auto d-block" src="./assets/imgs/add-to-cart.png"></a>
+
+                            <p class="pt-3">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3visa.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3mastercard.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3amex.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3discover.png">
+                            </p>
+
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee_2.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p><strong>Helps to increase strength</strong> - having looser hips has been shown to
+                                increase speed and strength, which combine to give you power. Increasing power gives you
+                                the chance to increase performance in sports and competition. <strong>In sports, power
+                                    comes from the hips.</strong>&nbsp;[27][44-45][49-54]</p>
+                            <p><strong>Helps to improve sleep</strong> - one of the most powerful effects of the program
+                                is how loose hips can provide you with more restful sleep. Aligned hip flexors leave the
+                                body more comfortable and less discomfort can allow your body better sleep to fully
+                                rejuvenate.&nbsp;[30]</p>
+
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/explosive-strength.jpg">
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class="col-md-4 px-5">
+                            <img class="img-fluid rotate-5 shadow mt-4" src="./assets/imgs/defined-muscle.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <p><strong>Save money on physical therapy</strong>– many people notice fewer injuries while
+                                training and performing their routines as a result of loose and much more flexible hips.
+                                If you’ve been going to physical therapy, maybe this can help you reduce your need for
+                                it.&nbsp;[19-26][29][49-54]</p>
+                            <p><b>Throw out those pain killers</b> – this is a NATURAL way to stave off pain in your
+                                back, legs and hips. Unlock Your Hip Flexors shows you how to deal with the CAUSE of
+                                your strength and flexibility problems, not the EFFECTS.</p>
+                            <p>Weakness, shortening and tightness develops in the muscle from sitting for extended
+                                periods of time, contributing to poor sleep, posture and even stress and tension.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section14" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center oswald font-weight-bold pb-4 text-gold">NOW IS YOUR TIME TO TAKE CONTROL<br>
+                        & RELEASE YOUR INNER ATHLETE</h2>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p>So now I’ve shown you what Unlock Your Hip Flexors can do for you, I’ve offered you the
+                                complete program for a ridiculously low price and two awesome bonuses and I've reversed
+                                all the risk of your decision to buy the program.</p>
+                            <p>The next step is up to you.</p>
+                            <p>You could read this and simply think to yourself "sounds good, but I can do this myself"
+                                or "I’ll come back to it later". But what happens in a few days’ time? In a week's time?
+                                In six months' time?</p>
+                            <p>Will you be feeling the damaging effects of tight hip flexors when you hit the gym, sit
+                                at your desk all day or try sleeping soundly at night?</p>
+                            <p>I hope that's not the path set out for you.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/inner-athlete.jpg">
+                        </div>
+                    </div>
+
+                    <p>Instead, I want you to take the path followed by so many other satisfied guys who've invested in
+                        Unlock Your Hip Flexors.</p>
+                    <p class="pb-3">Many men are amazed at how quickly they loosen up their hip flexors while following
+                        my simple program. </p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="./assets/imgs/strength-couple.jpg">
+                        </div>
+                        <div class="col-md-6">
+                            <p>It becomes easily incorporated into their daily routine, and they no longer dread hitting
+                                the training floor, but actually look forward to working out with Rick’s groundbreaking
+                                system!</p>
+                            <p>The best part? You can learn how to easily unlock your hip flexors no matter how “old”
+                                you are, the state of your health, or even if you’ve never worked out a day before in
+                                your life!</p>
+                            <p>Make the best choice for yourself. Hit the Add To Cart button below and be ready to
+                                complete your payment details on the following secure web page. Once all of your details
+                                have been completed and payment is made, hit Submit.</p>
+                        </div>
+                    </div>
+
+                    <div class="bestseller shadow my-5">
+                        <h2 class="header text-center">BEST SELLER</h2>
+
+                        <div class="content text-center">
+                            <h3 class="font-weight-bold pb-3">Physical DVD Shipped + Instant Access to the Digital
+                                Versions + FREE BONUSES!</h3>
+                            <p>Get a <strong><u>physical copy of the DVD</u></strong> of <em>Unlock Your Hip
+                                    Flexors</em> shipped <strong>directly to your home...</strong></p>
+                            <p>...PLUS instantly download the digital versions and bonuses <u><b>absolutely
+                                        FREE!</b></u></p>
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/uyhf-physicaldigital.png">
+
+                            <h2 class="font-weight-bold oswald text-red pb-3">Your Discounted Price: <s
+                                    class="text-black">$30</s> $20
+                                <br><span class="text-black font-weight-bold">+7.95 S&H</span>
+                            </h2>
+
+                            <a href="./checkoutTemplate/checkout.html"
+                                class="btn-add-cart"><img class="mx-auto d-block" src="./assets/imgs/add-to-cart.png"></a>
+
+                            <p class="pt-3">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3visa.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3mastercard.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3amex.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3discover.png">
+                            </p>
+
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee_2.png">
+                        </div>
+                    </div>
+
+                    <p>Within a few minutes, you'll receive your log-in details and you can immediately dive in and
+                        start reading the reports and watching the videos.</p>
+                    <p>You can be making a difference to your health and well-being within minutes. You just have to
+                        grab the moment and do it.</p>
+                    <p>Soli Deo gloria,</p>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-fluid" src="./assets/imgs/mike-westerdal-sig.jpg">
+                        </div>
+                        <div class="col-md-4">
+                            <p>Mike Westerdal, CPT, RKC<br>
+                                President CriticalBench.com<br>
+                                criticalbench1@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <p class="pt-3">P.S. Try Unlock Your Hip Flexors for 60 days and discover for yourself the
+                        difference Rick's incredible sequential flow makes to your strength, flexibility, energy and
+                        overall health.</p>
+                    <p>If you're struggling to break through a plateau with fat loss or trying to hit peak performance,
+                        now you’re finally able to help your progress by easily following Rick’s revolutionary program.
+                    </p>
+                    <p>And if you don't absolutely love the program and see a huge benefit to your physical and
+                        emotional health, I'll give you all your money back, no questions asked.</p>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Physical Therapist Approved!</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/Erin-Nielsen.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-italic">"With so many people suffering with Hip Pain out there, Rick's
+                                    program "Unlock Your Hip Flexors" is a great tool for any fitness or health
+                                    professional that wants to reduce pain, and improve strength, performance and
+                                    overall health.</p>
+                                <p class="text-italic">As a Physical Therapist that works with numerous hip injuries, I
+                                    can incorporate many of Rick’s exercises into my rehabilitative and wellness
+                                    programs for my patients with excellent results.</p>
+                                <p class="text-italic">The exercises are sensible and easy to learn – and your clients
+                                    will be happy, healthy and thank you for it!"</p>
+                            </div>
+                        </div>
+                        <p class="pt-3"><b>Erin Nielsen</b><br>
+                            Physical Therapist<br>
+                            Creator, TonedInTenFitness.com</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">A Great Resource for Coaches & Trainers</h4>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="text-italic">"Having trained hundreds of clients over the past 15 years, I
+                                    know the importance of having fresh, valuable knowledge that I can rely on
+                                    especially on areas of the body like the hips. Unlock Your Hip Flexors was exactly
+                                    what I needed to read. In typical Critical Bench fashion, the content blew me away.
+                                </p>
+                                <p class="text-italic">With this program that Rick and Mike created, I am able to
+                                    confidently walk into a training session better equipped to take my client to the
+                                    next level of training. Critical Bench is my go-to source for simple yet
+                                    professional information. I can't recommend them enough."</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/BrianKlepacki.jpg">
+                            </div>
+                        </div>
+                        <p class="pt-3"><b>Brian Klepacki, MS, CSCS</b><br>
+                            Owner of Optimax Performance Training<br>
+                            www.optimaxperformance.com</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Safely Re-Balance the Muscle Group</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/Jill-Brighton.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-italic">"I think the Unlock Your Hip Flexors program is very complete in
+                                    listing the possible causes of tight hip flexors and other factors that can lead to
+                                    the issue.</p>
+                                <p class="text-italic">It is detailed, descriptive, from the anatomy of the hip, causes
+                                    of such injuries, and a very progressive and well explained exercise and stretching
+                                    schedule that will assist to re-balance the hip and pelvic region, safely stretch
+                                    and strengthen the muscle group."</p>
+                            </div>
+                        </div>
+                        <p class="pt-3"><b>Jill B.</b><br>
+                            Massage Therapist from Alberta, Canada</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Don't Have a Personal Trainer? No Problem!</h4>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="text-italic">"I’m not a fitness professional, just a 62 year old guy who came
+                                    across your website looking for help with several physical issues I have been
+                                    experiencing.</p>
+                                <p class="text-italic">As a former college basketball player I found it discouraging
+                                    that no one could seem to help me with my lower back problems and more recently my
+                                    Glutes and Hip flexors. That was until I found your site and ordered your exercise
+                                    program which has dramatically improved each one of my conditions!</p>
+                                <p>The Unlock Your Hip Flexors program is easy to order and easy to download, no waiting
+                                    for a delivery. The video presentation and visuals in the exercise program give me
+                                    confidence that I am doing the exercises correctly which for me is key with no
+                                    personal trainer. As a former Div 1 college athlete, the program works really well
+                                    for me! Keep up the good work!"</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/Mark-Jellison.jpg">
+                            </div>
+                        </div>
+                        <p class="pt-3"><b>Mark Jellison</b><br>
+                            Account Executive of Procter & Gamble, MA</p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Allows Me To Workout Hard Without Pain</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/Kerri-Baker.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-italic">"I came across Rick Kaselj a few years back when I was looking
+                                    for something to help with my painful piriformis syndrome pain which I had been
+                                    suffering with for over a year. I watch one of his YouTube videos and the advice he
+                                    gave in the video helped get rid of my piriformis and hip pain. Ever since then I
+                                    have been following Rick on a daily basis with YouTube videos, blog posts and
+                                    articles.</p>
+                                <p class="text-italic">Thanks for everything you do Rick and I know if you have a stiff,
+                                    tight or painful hip then Unlock Your Hip Flexors will help you."</p>
+                            </div>
+                        </div>
+                        <p class="pt-3"><b>Kerri Baker, CPT, BS, BA, MS Exercise Science</b><br>
+                            Personal Training Studio Manager<br>
+                            Kirkland,Washington<br>
+                            KerriBFitn
+                        </p>
+                        <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">If You Sit A Lot You Need Unlock Your Hip Flexors</h4>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="text-italic">"As a gym owner and personal trainer, I'm always in search of the
+                                    latest techniques and exercises to help my members and clients with strength and
+                                    overall body function. Knowing how much people sit and unknowingly abuse their hips
+                                    in everyday life makes Unlock Your Hip Flexors so worthwhile.</p>
+                                <p class="text-italic">The other added bonus is how simply and quickly these techniques
+                                    can be applied at the start of any workout making all movements of the body better
+                                    in just minutes. The response has been life changing not only for my clients but for
+                                    myself."</p>
+                                <p><b>Ivan Gomez, Certified Personal Trainer</b><br>
+                                    Health Club Owner - Clearwater, FL</p>
+                                <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/ivan-gomez.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Get The Edge Over the Competition</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/ToddKuslikis.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-italic">"If you are an athlete that relies on explosiveness in your
+                                    sport, then you must be aware of the #1 road block in your performance... tight hip
+                                    flexors.</p>
+                                <p class="text-italic">It's the hidden killer of success. Athletes that sit all day for
+                                    their day job are causing terrible alignment in their hips... which wreaks havoc on
+                                    other areas of their body. Improving the mobility in your hips will give you the
+                                    extra edge over the competition and improve the effectiveness of your workouts.</p>
+                                <p>Mike and Rick's Unlock Your Hip Flexors program is the most complete, systematic
+                                    approach that I've ever seen on the market. The program will help take your
+                                    athleticism to the next level no matter if you are a top professional or just
+                                    starting out."</p>
+                                <p><b>"Bodyweight Todd" Kuslikis</b><br>
+                                    Founder of Shot of Adrenaline</p>
+                                <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <h4 class="font-weight-bold text-purple">Unlock Your Hips to Unlock Your Squat</h4>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="text-italic">"I’ve had so many personal training clients come and see me over
+                                    the years that can’t squat properly, it drives me mad! This is mostly due to their
+                                    hip mobility or lack of it! If you sit all day, have hips that are stiff, suffer
+                                    from mysterious hip aches or struggle to do a perfect squat, then you need to check
+                                    out Rick Kaselj and his Unlock Your Hip Flexors program.</p>
+                                <p class="text-italic">In my experience, tight hips, achy hips, and poor squatting, if
+                                    not addressed, will lead to more serious injuries and pain further down the line,
+                                    which is why I whole heartedly recommend Rick’s Unlock Your Hip Flexors program. Get
+                                    it!"</p>
+                                <p><b>Gavin Walsh BSc (Hons)</b><br>
+                                    Personal Trainer Brighton<br>
+                                    East Sussex, UK</p>
+                                <p class="disclaimer">Disclaimer: Individual results may vary.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mx-auto d-block w-100" src="./assets/imgs/gavin-walsh.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section15" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bestseller shadow mb-5">
+                        <h2 class="header text-center">BEST SELLER</h2>
+
+                        <div class="content text-center">
+                            <h3 class="font-weight-bold pb-3">Physical DVD Shipped + Instant Access to the Digital
+                                Versions + FREE BONUSES!</h3>
+                            <p>Get a <strong><u>physical copy of the DVD</u></strong> of <em>Unlock Your Hip
+                                    Flexors</em> shipped <strong>directly to your home...</strong></p>
+                            <p>...PLUS instantly download the digital versions and bonuses <u><b>absolutely
+                                        FREE!</b></u></p>
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/uyhf-physicaldigital.png">
+
+                            <h2 class="font-weight-bold oswald text-red pb-3">Your Discounted Price: <s
+                                    class="text-black">$30</s> $20
+                                <br><span class="text-black font-weight-bold">+7.95 S&H</span>
+                            </h2>
+
+                            <a href="./checkoutTemplate/checkout.html"
+                                class="btn-add-cart"><img class="mx-auto d-block" src="./assets/imgs/add-to-cart.png"></a>
+
+                            <p class="pt-3">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3visa.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3mastercard.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3amex.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3discover.png">
+                            </p>
+
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee_2.png">
+                        </div>
+                    </div>
+
+                    <h2 class="font-weight-bold text-center oswald text-purple pt-5 pb-4">FAQS ABOUT UNLOCK YOUR HIP
+                        FLEXORS</h2>
+
+                    <p class="text-purple font-weight-bold">Q: How is this different from other hip flexibility
+                        programs?</p>
+
+                    <p>A: What makes Rick's program unique is knowing how to unravel the tricky layers of tension with
+                        the very difficult psoas muscle in order to effectively loosen and train it.</p>
+
+                    <p class="text-purple font-weight-bold">Q: Why are you selling this so cheap? What's the catch?</p>
+
+                    <p>A: There is none. We're so pleased with the number of our customers who have made the investment
+                        in this program and have enjoyed life-changing results.</p>
+
+                    <p>Our aim is to make this available to as many people as possible, firstly to welcome more people
+                        to our CriticalBench.com audience and secondly because we're celebrating hitting a quarter
+                        million fans on Facebook.</p>
+
+                    <p class="text-purple font-weight-bold">Q: How long will it take me to do the program?</p>
+
+                    <p>A: The program is designed to take between 10-15 minutes in total to complete.</p>
+
+                    <p>We recommended adding the program as a daily practice to get the best results over a longer
+                        period of time. You may wish to add this program before or after your regular gym session or use
+                        it independently.</p>
+
+                    <p class="text-purple font-weight-bold">Q: How long until I see results?</p>
+
+                    <p>A: Although everyone is different and results may vary, we know from experience how quickly it's
+                        possible to feel and see a difference.</p>
+
+                    <p>For some it may be as soon as their first session; for others it may take a few sessions to
+                        really start seeing the benefits. Again, it depends on the body in question.</p>
+
+                    <p class="text-purple font-weight-bold">Q: Who is this program suitable for?</p>
+
+                    <p>A: This program is suitable for you if you're currently suffering from inexplicable back, hip or
+                        joint pain.</p>
+
+                    <p>The exercises themselves are not strenuous and are designed to be carried out by anyone,
+                        regardless of ability.</p>
+
+                    <p class="text-purple font-weight-bold">Q: Can I perform the Sequential Flow if I have had a hip
+                        replacement?</p>
+
+                    <p>A: The answer to this is very individual. It depends on what type of hip replacement surgery you
+                        had and how you have recovered from the surgery. It is best to ask your surgeon or doctor to see
+                        which exercises of the sequential flow you should do or avoid.</p>
+
+                    <p class="text-purple font-weight-bold">Q: I want to start right away. Do I have to wait for the DVD
+                        to come in the mail?</p>
+
+                    <p>A: You don't have to wait. Unlock Your Hip Flexors Program is an instant access downloadable
+                        program that includes videos and manuals and/or physical DVD.</p>
+
+                    <p>The ebooks are in the format of adobe acrobat PDF, which can be viewed on Mac or PC. The video
+                        format is M4V which can be viewed on Mac, PC, computer, tablet or smartphone. You can also
+                        select a physical and digital option where you get both.</p>
+
+                    <p class="text-purple font-weight-bold">Q: Are the exercises hard to perform?</p>
+
+                    <p>A: No. Once you watch the coaching videos they will be easy for you. There are also progressions
+                        to make the movements more challenging if needed.</p>
+
+                    <p class="text-purple font-weight-bold">Q: What if the routine doesn’t work for me?</p>
+
+                    <p>A: It will work. But to make you feel better, if for any reason you're not happy with the
+                        program, just let us know and we will give you a full refund for up to 60 Days, no questions
+                        asked. We stand behind this product 110% and have no problem offering a money back guarantee.
+                    </p>
+
+                    <p class="text-purple font-weight-bold">Q: Do I need a gym membership or any special equipment?</p>
+
+                    <p>A: No. You can do this routine anywhere in a very small space. All you need is a wall to lean on
+                        for support for a couple of the movements.</p>
+
+                    <h2 class="font-weight-bold oswald text-center pb-3 pt-4">UNLOCK YOUR HIP FLEXORS WILL HELP YOU
+                        WITH...</h2>
+
+                    <div class="row no-gutters pb-3">
+                        <div class="col-md-1 align-self-center d-none d-md-block">
+                            <a href="#slider" data-slide="prev"><img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/left-arrow.png"></a>
+                        </div>
+
+                        <div class="col-md-10 d-none d-md-block">
+                            <div id="slider" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+
+                                    <div class="carousel-item active">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/more-energy.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/proper-digestion.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/deep-sleep.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/strength-output.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/more-energy.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/proper-digestion.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/deep-sleep.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/strength-output.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/more-energy.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/proper-digestion.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/deep-sleep.jpg">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/strength-output.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 align-self-center d-none d-md-block">
+                            <a href="#slider" data-slide="next"><img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/right-arrow.png"></a>
+                        </div>
+
+
+
+                        <div class="col-2 align-self-center d-block d-md-none">
+                            <a href="#slider-mobile" data-slide="prev"><img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/left-arrow.png"></a>
+                        </div>
+
+                        <div class="col-8 d-block d-md-none">
+                            <div id="slider-mobile" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+
+                                    <div class="carousel-item active">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-12">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/more-energy.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-12">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/proper-digestion.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-12">
+                                                <img class="img-fluid mx-auto d-block" src="./assets/imgs/deep-sleep.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-12">
+                                                <img class="img-fluid mx-auto d-block"
+                                                    src="./assets/imgs/strength-output.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 align-self-center d-block d-md-none">
+                            <a href="#slider-mobile" data-slide="next"><img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/right-arrow.png"></a>
+                        </div>
+
+                    </div>
+
+                    <div class="bestseller shadow my-5">
+                        <h2 class="header text-center">BEST SELLER</h2>
+
+                        <div class="content text-center">
+                            <h3 class="font-weight-bold pb-3">Physical DVD Shipped + Instant Access to the Digital
+                                Versions + FREE BONUSES!</h3>
+                            <p>Get a <strong><u>physical copy of the DVD</u></strong> of <em>Unlock Your Hip
+                                    Flexors</em> shipped <strong>directly to your home...</strong></p>
+                            <p>...PLUS instantly download the digital versions and bonuses <u><b>absolutely
+                                        FREE!</b></u></p>
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/uyhf-physicaldigital.png">
+
+                            <h2 class="font-weight-bold oswald text-red pb-3">Your Discounted Price: <s
+                                    class="text-black">$30</s> $20
+                                <br><span class="text-black font-weight-bold">+7.95 S&H</span>
+                            </h2>
+
+                            <a href="./checkoutTemplate/checkout.html"
+                                class="btn-add-cart"><img class="mx-auto d-block" src="./assets/imgs/add-to-cart.png"></a>
+
+                            <p class="pt-3">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3visa.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3mastercard.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3amex.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3discover.png">
+                            </p>
+
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee_2.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section16" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>References for Unlock Your Hip Flexors:</p>
+                    <ol>
+                        <li>The Vital Psoas Muscle: Connecting Physical, Emotional, and Spiritual Well-Being, Jo Ann
+                            Staugaard-Jones, North Atlantic Books 2012</li>
+                        <li>Psoas Strength and Flexibility: Core Workouts to Increase Mobility, Reduce Injuries and End
+                            Back Pain, Pamela Ellgen Ulysses Press, (2015)</li>
+                        <li>Body Encyclopaedia: A Guide to the Psychological Functions of the Muscular System, Lisbeth
+                            Marcher and Sonja Fich, North Atlantic Books (2010)</li>
+                        <li>Iliopsoas - The Flee/Fight Muscle for Survival, Liz Koch,PositiveHealthOnline.com (2005)
+                        </li>
+                        <li>The Psoas Is - Liz Koch, YogaJournal.com (2007)</li>
+                        <li>The Psoas Book, Liz Koch, Guinea Pig Publications (2012)</li>
+                        <li>6 Muscles You Can’t Ignore, Ted Spiker, Men’s Health (2015)</li>
+                        <li>The Psoas Muscles, Psoas Stretches and Abdominal Exercises for Back Pain, Lawrence Gold
+                            (2010) Somatics on the Web, somatics.com</li>
+                        <li>Passive Versus Active Stretching of Hip Flexor Muscles in Subjects With Limited Hip
+                            Extension, Michael V Winters et al, Journal of the American Physical Therapy Association
+                            (2004)</li>
+                        <li>Tight Psoas Muscles? Sit too much?, Lawrence Gold, Lawrence Gold Somatics</li>
+                        <li>Effects of hip flexor training on sprint, shuttle run, and vertical jump performance, RS
+                            Deane et al, Journal of Strength Conditioning Research(2005)</li>
+                        <li>Gluteal Muscles, Brian Mac, BrianMac.com</li>
+                        <li>Weight Loss and Adrenal Stress, Marcelle Pick, WomenToWomen.com</li>
+                        <li>Psoas Muscle In Tai Chi, EarthBalance-TaiChi.com (2012)</li>
+                        <li>Attention, Yogis: What Is The Psoas and Why Should We Care?, Hope Zvara,MindBodyGreen.com
+                            (2012)</li>
+                        <li>The ‘Muscle of the Soul’ may be Triggering your Fear and Anxiety, Brett Wilbanks, Waking
+                            Times (2015)</li>
+                        <li>Need Speed? Don’t Forget The Psoas!, Dr Evan Osar,AthletesAcceleration.com</li>
+                        <li>Runner’s Guide To The Psoas, Jill Hudgins, Runners World (2011)</li>
+                        <li>Bachrach RM. Team physician #3. The relationship of low back/pelvic somatic dysfunctions to
+                            dance injuries. Orthop Rev. 1988;17(10):1037-43.</li>
+                        <li>Ingber RS. Iliopsoas myofascial dysfunction: a treatable cause of "failed" low back
+                            syndrome. Arch Phys Med Rehabil. 1989;70(5):382-6.</li>
+                        <li>Nadler SF, Malanga GA, Bartoli LA, Feinberg JH, Prybicien M, Deprince M. Hip muscle
+                            imbalance and low back pain in athletes: influence of core strengthening. Med Sci Sports
+                            Exerc. 2002;34(1):9-16.</li>
+                        <li>Leinonen V, Kankaanpää M, Airaksinen O, Hänninen O. Back and hip extensor activities during
+                            trunk flexion/extension: effects of low back pain and rehabilitation. Arch Phys Med Rehabil.
+                            2000;81(1):32-7.</li>
+                        <li>Jull GJV. Muscle and motor control in low back pain: Assessment and management. In: Twomey
+                            LT, Taylor JR, editors. Physical Therapy for the Low Back Clinics in Physical Therapy.
+                            Churchill Livingston; New York: 1987.</li>
+                        <li>Winters MV, Blake CG, Trost JS, Marcello-Brinker TB, Lowe L, Garber MB, Wainner RS. Passive
+                            versus active stretching of hip flexor muscles in subjects with limited hip extension: A
+                            randomized clinical trial. Phys Ther. 2004;84(9):800–807.</li>
+                        <li>Levine D, Colston MA, Whittle MW, Pharo EC, Marcellin-Little DJ. Sagittal Lumbar Spine
+                            Position During Standing, Walking, and Running at Various Gradients. Journal of Athletic
+                            Training. 2007;42(1):29-34.</li>
+                        <li>Enseki K, Harris-Hayes M, White DM, et al. Non-arthritic Hip Joint Pain: Clinical Practice
+                            Guidelines Linked to the International Classification of Functioning, Disability, and Health
+                            from the Orthopaedic Section of the American Physical Therapy Association. The Journal of
+                            orthopaedic and sports physical therapy. 2014;44(6):A1-32. doi:10.2519/jospt.2014.0302.</li>
+                        <li>Kerrigan DC, Xenopoulos-oddsson A, Sullivan MJ, Lelas JJ, Riley PO. Effect of a hip
+                            flexor-stretching program on gait in the elderly. Arch Phys Med Rehabil. 2003;84(1):1-6.
+                        </li>
+                        <li>Ammendolia C. Degenerative lumbar spinal stenosis and its imposters: three case studies. The
+                            Journal of the Canadian Chiropractic Association. 2014;58(3):312-319.</li>
+                        <li>Winters MV, Blake CG, Trost JS, et al. Passive versus active stretching of hip flexor
+                            muscles in subjects with limited hip extension: a randomized clinical trial. Phys Ther.
+                            2004;84(9):800-7.</li>
+                        <li>Panarello SR. Symphysis pubis subluxation: pre and post partum chiropractic care. J Clinical
+                            Chiropr Ped. 2005;6(3):432–435.</li>
+                        <li>Eng JJ, Tang PF. Gait training strategies to optimize walking ability in people with stroke:
+                            A synthesis of the evidence. Expert review of neurotherapeutics. 2007;7(10):1417-1436.
+                            doi:10.1586/14737175.7.10.1417.</li>
+                        <li>King W, Kissel JT. Multidisciplinary Approach to the Management of Myopathies. Continuum :
+                            Lifelong Learning in Neurology. 2013;19(6 Muscle Disease):1650-1673.
+                            doi:10.1212/01.CON.0000440664.34051.4d.</li>
+                        <li>Muir B. Exercise related transient abdominal pain: a case report and review of the
+                            literature. The Journal of the Canadian Chiropractic Association. 2009;53(4):251-260.</li>
+                        <li>Rebuffé-scrive M, Walsh UA, Mcewen B, Rodin J. Effect of chronic stress and exogenous
+                            glucocorticoids on regional fat distribution and metabolism. Physiol Behav.
+                            1992;52(3):583-90.</li>
+                        <li>Rosmond R. Role of stress in the pathogenesis of the metabolic syndrome.
+                            Psychoneuroendocrinology. 2005;30(1):1-10.</li>
+                        <li>Karatsoreos IN, Bhagat SM, Bowles NP, Weil ZM, Pfaff DW, Mcewen BS. Endocrine and
+                            physiological changes in response to chronic corticosterone: a potential model of the
+                            metabolic syndrome in mouse. Endocrinology. 2010;151 (5):2117-27.</li>
+                        <li>Pillet J, Chevalier JM, Rasomanana D, et al. The principal artery of the psoas major muscle.
+                            Surg Radiol Anat. 1989;11(1):33-6. 20.</li>
+                        <li>Edelstein J. Rehabilitating Psoas Tendonitis: A Case Report. HSS Journal. 2009;5(1):78-82.
+                            doi:10.1007/s11420-008-9097-0.</li>
+                        <li>Page P. Current Concepts In Muscle Stretching For Exercise And Rehabilitation. International
+                            Journal of Sports Physical Therapy. 2012;7 (1):109-119.</li>
+                        <li>Law RY, Harvey LA, Nicholas MK, Tonkin L, De sousa M, Finniss DG.Stretch exercises increase
+                            tolerance to stretch in patients with chronic musculoskeletal pain: a randomized controlled
+                            trial. Phys Ther. 2009;89 (10):1016-26.</li>
+                        <li>Lewit K, Simons DG. Myofascial pain: relief by post-isometric relaxation. Arch Phys Med
+                            Rehabil. 1984;65(8):452-6.</li>
+                        <li>Tyler TF, Fukunaga T, Gellert J. Rehabilitation Of Soft Tissue Injuries Of The Hip And
+                            Pelvis. International Journal of Sports Physical Therapy. 2014;9(6):785-797.</li>
+                        <li>Nelson RT, Bandy WD. Eccentric Training and Static Stretching Improve Hamstring Flexibility
+                            of High School Males. J Athl Train. 2004;39(3):254-</li>
+                        <li>Souza AC, Bentes CM, de Salles BF, et al. Influence of Inter-Set Stretching on Strength,
+                            Flexibility and Hormonal Adaptations. Journal of Human Kinetics. 2013;36:127-135.
+                            doi:10.2478/hukin-2013-0013.</li>
+                        <li>Thorborg K, Bandholm T, Zebis M, Andersen LL, Jensen J, Hölmich P. Large strengthening
+                            effect of a hip-flexor training programme: a randomized controlled trial. Knee Surg Sports
+                            Traumatol Arthrosc. 2016;24(7):2346-52.</li>
+                        <li>Apostolopoulos N, Metsios GS, Flouris AD, Koutedakis Y, Wyon MA. The relevance of stretch
+                            intensity and position—a systematic review. Frontiers in Psychology. 2015;6:1128.
+                            doi:10.3389/fpsyg.2015.01128.</li>
+                        <li>Voight ML, Robinson K, Gill L, Griffin K. Postoperative rehabilitation guidelines for hip
+                            arthroscopy in an active population. Sports Health. 2010;2(3):222-30.</li>
+                        <li>.</li>
+                        <li>Mills M, Frank B, Goto S, et al. Effect Of Restricted Hip Flexor Muscle Length On Hip
+                            Extensor Muscle Activity And Lower Extremity Biomechanics in College-Ages Female Soccer
+                            Players. Int J Sports Phys Ther. 2015;10(7):946-54.</li>
+                        <li>Deane RS, Chow JW, Tillman MD, Fournier KA. Effects of hip flexor training on sprint,
+                            shuttle run, and vertical jump performance. J Strength Cond Res. 2005;19(3):615-21.</li>
+                        <li>Wakefield CB, Cottrell GT. Changes in hip flexor passive compliance do not account for
+                            improvement in vertical jump performance after hip flexor static stretching. J Strength Cond
+                            Res. 2015;29(6):1601-8.</li>
+                        <li>Young WB, Rath DA. Enhancing foot velocity in football kicking: the role of strength
+                            training. J Strength Cond Res. 2011;25(2):561-6.</li>
+                        <li>Sandell J, Palmgren PJ, Björndahl L. Effect of chiropractic treatment on hip extension
+                            ability and running velocity among young male running athletes. J Chiropr Med.
+                            2008;7(2):39-47.</li>
+                        <li>Waryasz GR, Mcdermott AY. Patellofemoral pain syndrome (PFPS): a systematic review of
+                            anatomy and potential risk factors. Dyn Med. 2008;7:9.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section15" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h2 class="font-weight-bold text-center text-red">Last chance to get Unlock Your Hip Flexors at a
+                        discounted price!</h2>
+
+                    <div class="bestseller shadow my-5">
+                        <h2 class="header text-center">BEST SELLER</h2>
+
+                        <div class="content text-center">
+                            <h3 class="font-weight-bold pb-3">Physical DVD Shipped + Instant Access to the Digital
+                                Versions + FREE BONUSES!</h3>
+                            <p>Get a <strong><u>physical copy of the DVD</u></strong> of <em>Unlock Your Hip
+                                    Flexors</em> shipped <strong>directly to your home...</strong></p>
+                            <p>...PLUS instantly download the digital versions and bonuses <u><b>absolutely
+                                        FREE!</b></u></p>
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/uyhf-physicaldigital.png">
+
+                            <h2 class="font-weight-bold oswald text-red pb-3">Your Discounted Price: <s
+                                    class="text-black">$30</s> $20
+                                <br><span class="text-black font-weight-bold">+7.95 S&H</span>
+                            </h2>
+
+                            <a href="./checkoutTemplate/checkout.html"
+                                class="btn-add-cart"><img class="img-fluid mx-auto d-block"
+                                    src="./assets/imgs/add-to-cart.png"></a>
+
+                            <p class="pt-3">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3visa.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3mastercard.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3amex.png">
+                                <img class="img-fluid d-inline-block" src="./assets/imgs/3discover.png">
+                            </p>
+
+                            <img class="img-fluid mx-auto d-block" src="./assets/imgs/guarantee_2.png">
+                        </div>
+                    </div>
+
+                    <p class="pt-5" style="font-size:13px;color:#aaa;line-height:normal;">NOTE: – Unlock Your Hip
+                        Flexors Program is an instant access downloadable program that includes videos and manuals
+                        and/or physical DVD. The ebooks are in the format of adobe acrobat PDF, which can be viewed on
+                        Mac or PC. The video format is M4V which can be viewed on Mac, PC, computer, tablet or
+                        smartphone. You can also select a physical and digital option where you get both.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="stickybar">
+        <a
+            href="./checkoutTemplate/checkout.html"><img
+                src="./assets/imgs/UYHF-CTA-20.png" alt="" width="700"
+                height="120" /></a>
+        <a onclick="myFunction()"><img class="closex"
+                src="./assets/imgs/close.png" /></a>
+    </div>
+    <script>
+        function myFunction() {
+            var element = document.getElementById("stickybar");
+            element.classList.toggle("closed");
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+        });
+    </script>
+
+</body>
+
+</html>
